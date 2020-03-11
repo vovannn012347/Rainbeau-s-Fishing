@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteSushi.stages.0.label>吃了生鱼片</AteSushi.stages.0.label>
+  <AteSushi.stages.0.description>我吃了生鱼片，真好次!</AteSushi.stages.0.description>
+
+  <AteShellfish.stages.0.label>吃了海鲜</AteShellfish.stages.0.label>
+  <AteShellfish.stages.0.description>我吃了海鲜，真好次!</AteShellfish.stages.0.description>
+
+  <AteEscargot.stages.0.label>吃了法式蜗牛</AteEscargot.stages.0.label>
+  <AteEscargot.stages.0.description>我吃了法式蜗牛. 味道还不错，但是口感有点奇怪...</AteEscargot.stages.0.description>
+
+  <AteShrimpScampi.stages.0.label>吃了基围虾</AteShrimpScampi.stages.0.label>
+  <AteShrimpScampi.stages.0.description>我吃了基围虾，真好次!</AteShrimpScampi.stages.0.description>
+
+  <AteCaviar.stages.0.label>吃了鱼子酱</AteCaviar.stages.0.label>
+  <AteCaviar.stages.0.description>我吃了鱼子酱，有点腥，但是很潮!</AteCaviar.stages.0.description>
+
+
+</LanguageData>

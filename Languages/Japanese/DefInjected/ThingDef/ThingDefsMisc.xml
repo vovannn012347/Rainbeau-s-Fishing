@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GENERIC FISH -->
+
+  <RawFish.label>魚の死体</RawFish.label>
+  <RawFish.description>生魚。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawFish.description>
+
+  <RawFishTiny.label>小魚の死体</RawFishTiny.label>
+  <RawFishTiny.description>小魚。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawFishTiny.description>
+
+
+  <!-- RAINFOREST FISH -->
+
+  <Arapaima.label>ピラルクの死体</Arapaima.label>
+  <Arapaima.description>ピラルクは、熱帯地域に特有の大きな淡水魚です。食べる前にきれいに下処理する必要があります。</Arapaima.description>
+
+  <Piranha.label>ピラニアの死体</Piranha.label>
+  <Piranha.description>ピラニアは、鋭い歯と強力な顎で知られる熱帯魚です。食べる前にきれいに下処理する必要があります。</Piranha.description>
+
+
+  <!-- COLD BIOME FISH -->
+
+  <Salmon.label>サケの死体</Salmon.label>
+  <Salmon.description>死んだサケ。食べる前にきれいに下処理する必要があります。</Salmon.description>
+
+
+  <!-- TEMPERATE FOREST FISH -->
+
+  <Sturgeon.label>チョウザメの死体</Sturgeon.label>
+  <Sturgeon.description>チョウザメは亜熱帯、温帯、亜北極地方に生息する大きな淡水魚です。例外的に肉が取れませんがメスのチョウザメはキャビアにできる彼らの卵(魚卵)のために釣られています。</Sturgeon.description>
+
+  <SturgeonCaviar.label>チョウザメの魚卵</SturgeonCaviar.label>
+  <SturgeonCaviar.description>チョウザメは亜熱帯、温帯、亜北極地方に生息する大きな淡水魚です。例外的に肉が取れませんがメスのチョウザメはキャビアにできる彼らの卵(魚卵)のために釣られています。</SturgeonCaviar.description>
+
+  <Bass.label>バスの死体</Bass.label>
+  <Bass.description>「バス」は、淡水性と海洋性の両方の種を含み、多くの種類の魚が共有する名前です。食べる前に下準備が必要です。</Bass.description>
+
+  <Catfish.label>ナマズの死体</Catfish.label>
+  <Catfish.description>死んだナマズ。食べる前に下準備が必要です。</Catfish.description>
+
+
+  <!-- (MOSTLY) OCEAN FISH -->
+
+  <Eel.label>うなぎの死体</Eel.label>
+  <Eel.description>生のうなぎ。食べる前にきれいに下処理する必要があります。</Eel.description>
+
+  <Jellyfish.label>クラゲの死体</Jellyfish.label>
+  <Jellyfish.description>死んだクラゲ。下処理する必要があります。</Jellyfish.description>
+
+  <Pufferfish.label>フグの死体</Pufferfish.label>
+  <Pufferfish.description>死んだフグ。下処理する必要があります。</Pufferfish.description>
+
+  <SeaCucumber.label>ナマコの死体</SeaCucumber.label>
+  <SeaCucumber.description>死んでいるナマコ。下処理する必要があります。</SeaCucumber.description>
+
+  <Squid.label>イカの死体</Squid.label>
+  <Squid.description>死んだイカ。食肉加工台で解体する必要があります。</Squid.description>
+
+
+  <!-- SHELLFISH -->
+
+  <Lobster.label>ロブスター</Lobster.label>
+  <Lobster.description>ロブスター。巨大なゴキブリのように見えます。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</Lobster.description>
+
+  <Crab.label>カニ</Crab.label>
+  <Crab.description>カニ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</Crab.description>
+
+  <Crayfish.label>ザリガニ</Crayfish.label>
+  <Crayfish.description>ザリガニ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</Crayfish.description>
+
+  <Snail.label>エスカルゴ</Snail.label>
+  <Snail.description>エスカルゴ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。 でもこれカタツムリだよね。</Snail.description>
+
+  <Shrimp.label>エビ</Shrimp.label>
+  <Shrimp.description>エビ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</Shrimp.description>
+
+
+  <!-- FISHY PRODUCTS -->
+
+  <RawFishMeat.label>魚の切り身</RawFishMeat.label>
+  <RawFishMeat.description>生魚の切り身。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawFishMeat.description>
+
+  <RawSquidMeat.label>イカの切り身</RawSquidMeat.label>
+  <RawSquidMeat.description>生イカの切り身。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawSquidMeat.description>
+
+  <SquidLeather.label>イカの皮</SquidLeather.label>
+  <SquidLeather.description>この干物のようなお粗末な革は、イカの皮から作られました。</SquidLeather.description>
+  <SquidLeather.stuffProps.stuffAdjective>イカの皮</SquidLeather.stuffProps.stuffAdjective>
+
+  <RawEelMeat.label>うなぎの切り身</RawEelMeat.label>
+  <RawEelMeat.description>生のうなぎ切り身。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawEelMeat.description>
+
+  <EelLeather.label>うなぎの皮</EelLeather.label>
+  <EelLeather.description>皮･･･と分類されていますが、これはうなぎの皮から作られています。</EelLeather.description>
+  <EelLeather.stuffProps.stuffAdjective>うなぎの皮</EelLeather.stuffProps.stuffAdjective>
+
+  <JellyfishMeat.label>クラゲの肉</JellyfishMeat.label>
+  <JellyfishMeat.description>生のグラゲ肉。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</JellyfishMeat.description>
+
+  <PufferfishMeat.label>フグの切り身</PufferfishMeat.label>
+  <PufferfishMeat.description>生のフグ切り身。「そのまま」食べられるかもしれませんが、それは適切な下処理しなければ毒があるかもしれないので推奨できません。</PufferfishMeat.description>
+
+  <SeaCucumberMeat.label>ナマコの身</SeaCucumberMeat.label>
+  <SeaCucumberMeat.description>生のナマコ。食べられるかもしれませんが、おそらく薬を生産するために良く利用されるでしょう。</SeaCucumberMeat.description>
+
+  <RawShellfishMeat.label>カニの身</RawShellfishMeat.label>
+  <RawShellfishMeat.description>生のカニ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawShellfishMeat.description>
+
+  <RawSnailMeat.label>エスカルゴの身</RawSnailMeat.label>
+  <RawSnailMeat.description>生のエスカルゴ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawSnailMeat.description>
+
+  <RawShrimpMeat.label>エビの身</RawShrimpMeat.label>
+  <RawShrimpMeat.description>生のエビ。「そのまま」食べられるかもしれませんが、しかし調理した方がいいでしょう。</RawShrimpMeat.description>
+
+
+  <!-- FOOD -->
+
+  <MealSushi.label>寿司</MealSushi.label>
+  <MealSushi.description>主に魚の切り身と米から作られたおいしい寿司がのった皿。</MealSushi.description>
+
+  <MealBoiledShellfish.label>茹でたカニ</MealBoiledShellfish.label>
+  <MealBoiledShellfish.description>山盛りの茹で上がったカニ。</MealBoiledShellfish.description>
+
+  <MealEscargot.label>茹でたエスカルゴ</MealEscargot.label>
+  <MealEscargot.description>茹で上がったエスカルゴ。別の言葉で表現するなら調理されたカタツムリ。</MealEscargot.description>
+
+  <MealShrimpScampi.label>エビチリ</MealShrimpScampi.label>
+  <MealShrimpScampi.description>皿に盛り付けられたシュリンプスキャンピ(北米版エビチリ)。</MealShrimpScampi.description>
+
+  <Caviar.label>キャビア</Caviar.label>
+  <Caviar.description>塩漬けされたチョウザメの魚卵は珍味です。</Caviar.description>
+
+
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>WorkGiver_CatchFish</defName>
+	    <label>catch fish</label>
+		<giverClass>RBB_Code.WorkGiver_CatchFish</giverClass>
+		<workType>Fishing</workType>
+		<fixedBillGiverDefs>
+			<li>RBB_FishingSpot</li>
+		</fixedBillGiverDefs>
+		<verb>fish</verb>
+		<gerund>fishing</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

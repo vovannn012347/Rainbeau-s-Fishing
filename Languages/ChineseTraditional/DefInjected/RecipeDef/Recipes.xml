@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSushi.label>製作散壽司</CookMealSushi.label>
+  <CookMealSushi.description>製作一碗美味的散壽司</CookMealSushi.description>
+  <CookMealSushi.jobString>製作散壽司。</CookMealSushi.jobString>
+
+  <CookMealBoiledShellfish.label>煮海鮮湯</CookMealBoiledShellfish.label>
+  <CookMealBoiledShellfish.description>煮一碗海鮮湯</CookMealBoiledShellfish.description>
+  <CookMealBoiledShellfish.jobString>煮海鮮湯。</CookMealBoiledShellfish.jobString>
+
+  <CookMealEscargot.label>烤蝸牛</CookMealEscargot.label>
+  <CookMealEscargot.description>料理一盤法式烤蝸牛</CookMealEscargot.description>
+  <CookMealEscargot.jobString>烤蝸牛。</CookMealEscargot.jobString>
+
+  <CookMealShrimpScampi.label>料理蝦</CookMealShrimpScampi.label>
+  <CookMealShrimpScampi.description>料理一盤蒜香鮮蝦</CookMealShrimpScampi.description>
+  <CookMealShrimpScampi.jobString>料理蝦。</CookMealShrimpScampi.jobString>
+
+  <MakeCucumberMed.label>用海參製作草藥</MakeCucumberMed.label>
+  <MakeCucumberMed.description>用海參製作草藥。</MakeCucumberMed.description>
+  <MakeCucumberMed.jobString>用海參製作草藥。</MakeCucumberMed.jobString>
+
+
+  <!-- OLD RECIPE DEFS FOR BACKWARDS COMPATIBILITY -->
+
+  <CleanFish.label>clean fish</CleanFish.label>
+  <CleanFish.description>Clean fish so they can be eaten raw or used in cooking.</CleanFish.description>
+  <CleanFish.jobString>Cleaning fish.</CleanFish.jobString>
+
+  <ButcherEel.label>butcher eel</ButcherEel.label>
+  <ButcherEel.description>Butcher eel for food and skin.</ButcherEel.description>
+  <ButcherEel.jobString>Butchering eel.</ButcherEel.jobString>
+
+  <ButcherSquid.label>butcher squid</ButcherSquid.label>
+  <ButcherSquid.description>Butcher squid for food and "leather."</ButcherSquid.description>
+  <ButcherSquid.jobString>Butchering squid.</ButcherSquid.jobString>
+
+
+</LanguageData>

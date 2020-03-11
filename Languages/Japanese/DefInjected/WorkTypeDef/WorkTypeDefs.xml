@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fishing.label>釣り</Fishing.label>
+  <Fishing.description>漁師は、橋の上から釣り竿で魚を釣ります。</Fishing.description>
+  <Fishing.labelShort>釣り</Fishing.labelShort>
+  <Fishing.pawnLabel>漁師</Fishing.pawnLabel>
+  <Fishing.gerundLabel>釣る</Fishing.gerundLabel>
+  <Fishing.verb>釣り</Fishing.verb>
+
+</LanguageData>

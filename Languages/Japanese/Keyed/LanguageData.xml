@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB.Fishing>Rainbeau's Fishing</RBB.Fishing>
+
+  <RBB.NotOnFS>釣り場の上には設置できません</RBB.NotOnFS>
+  <RBB.FSTooClose>別の釣り場が近すぎます（9タイル以内）</RBB.FSTooClose>
+  <RBB.FishingSpot1>水や沼の上に釣り場を設置してください</RBB.FishingSpot1>
+  <RBB.FishingSpot2>水や沼の上に釣り場（青い丸）と地面側の対応する場所（白い円）を設置しなければなりません</RBB.FishingSpot2>
+  <RBB.ShellfishTrap>地面に隣接する水または沼地に設置してください</RBB.ShellfishTrap>
+  <RBB.TrapTooClose>別のカニ籠が近すぎます（6タイル以内)</RBB.TrapTooClose>
+
+  <RBB.TragedyTitle>釣りの惨事！</RBB.TragedyTitle>
+  <RBB.TragedyText> 攻撃的な奇妙な魚に噛まれました。(あるいはそれはウナギだったかもしれませんが、すべて一瞬で起きました！）医師の診察が必要になるかもしれません！</RBB.TragedyText>
+  <RBB.TragedyPiranhaText>はピラニアの集団に襲われた！ 医師の治療が必要な場合があります。</RBB.TragedyPiranhaText>
+  <RBB.TragedyJellyfishText>はクラゲに刺されてマズイ事態だ！ 医師の診察が必要な場合があります。</RBB.TragedyJellyfishText>
+
+  <RBB.CaughtNothingTitle>何も釣れなかった</RBB.CaughtNothingTitle>
+  <RBB.CaughtNothing>は結局何も釣れなかった。</RBB.CaughtNothing>
+  <RBB.SnaggedJunkTitle>「何か」を釣り上げた</RBB.SnaggedJunkTitle>
+  <RBB.SnaggedJunk>は沈んでいたゴミを釣り上げた：</RBB.SnaggedJunk>
+  <RBB.FishingSuccessTitle>釣れました</RBB.FishingSuccessTitle>
+  <RBB.SunkenTreasureTitle>沈んでいた宝物</RBB.SunkenTreasureTitle>
+  <RBB.SunkenTreasureText>は宝物を釣り上げました：</RBB.SunkenTreasureText>
+
+  <RBB.Arapaima>はピラルクを釣り上げた！ とてもでかい！</RBB.Arapaima>
+  <RBB.Eel>はウナギを釣り上げました。</RBB.Eel>
+  <RBB.Fish>は魚を釣り上げました。</RBB.Fish>
+  <RBB.Jellyfish>は幸運にも刺されずにクラゲを釣り上げた!</RBB.Jellyfish>
+  <RBB.Piranha>はピラニアを釣り上げました。</RBB.Piranha>
+  <RBB.Pufferfish>はフグを釣り上げました。</RBB.Pufferfish>
+  <RBB.Salmon>はサケを釣り上げました。</RBB.Salmon>
+  <RBB.SeaCucumber>はナマコを捕まえた....</RBB.SeaCucumber>
+  <RBB.Squid>はイカを釣り上げた!</RBB.Squid>
+  <RBB.Sturgeon>はチョウザメを釣り上げた！すぐにでもキャビアを食べちゃう？</RBB.Sturgeon>
+  <RBB.TinyFish>は小魚を釣り上げました。</RBB.TinyFish>
+  <RBB.Bass>はバスを釣り上げました。</RBB.Bass>
+  <RBB.Catfish>はナマズを釣り上げました。</RBB.Catfish>
+
+  <RBB.TrapLobster>カニ籠にロブスターが入っていた！</RBB.TrapLobster>
+  <RBB.TrapCrab>カニ籠にカニが入っていました。</RBB.TrapCrab>
+  <RBB.TrapShrimp>カニ籠に何匹かエビが入っていました。</RBB.TrapShrimp>
+  <RBB.TrapFish>カニ籠に何匹か小魚が入っていました。</RBB.TrapFish>
+  <RBB.TrapCrayfish>カニ籠に何匹かザリガニが入っていました。</RBB.TrapCrayfish>
+  <RBB.TrapSnail>カニ籠に何匹かエスカルゴが入っていました。</RBB.TrapSnail>
+
+  <RBB.TrapDestroyed>カニ籠は修理できない損傷を受けています。</RBB.TrapDestroyed>
+
+  <RBB.failureLevel>通知タイプ: 何も釣れなかった</RBB.failureLevel>
+  <RBB.junkLevel>通知タイプ: 「何か」を釣り上げた</RBB.junkLevel>
+  <RBB.successLevel>通知タイプ: 釣れました</RBB.successLevel>
+  <RBB.treasureLevel>通知タイプ: 沈んでいた宝物</RBB.treasureLevel>
+
+  <RBB.NoticeNone>通知しない。</RBB.NoticeNone>
+  <RBB.NoticeSilent>文字だけの簡単な通知。(無音)</RBB.NoticeSilent>
+  <RBB.NoticeDing>文字だけの簡単な通知。(警告音付)</RBB.NoticeDing>
+  <RBB.NoticeBox>読了の必要があるイベント通知</RBB.NoticeBox>
+
+  <RBB.FishersHaul>入植者が釣った獲物を自分で貯蔵場所に運びます。</RBB.FishersHaul>
+  <RBB.FishersHaulTip>これがチェックされていれば、釣りで針に何かかかるたびに釣りを停止して、近くの貯蔵エリアに運びます。これは釣りの効率を低下させますが、代わりに釣れた物(魚等)を運ぶために他の入植者などが自分の仕事を中断してそれらを運ぶ事を防ぎます。</RBB.FishersHaulTip>
+
+</LanguageData>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB.TragedyTitle>釣魚悲劇!</RBB.TragedyTitle>
+  <RBB.TragedyText>被一條奇怪的魚咬傷了！(或許是條鰻魚，但一切都發生的那麼快無法確認) 可能需要醫療照護！</RBB.TragedyText>
+  <RBB.TragedyPiranhaText>被一群食人魚攻擊！可能需要醫療照護！</RBB.TragedyPiranhaText>
+  <RBB.TragedyJellyfishText>被水母遮到了！可能需要醫療照護！</RBB.TragedyJellyfishText>
+
+  <RBB.CaughtNothingTitle>釣不到東西...</RBB.CaughtNothingTitle>
+  <RBB.CaughtNothing>釣了老半天什麼鬼都沒釣到</RBB.CaughtNothing>
+  <RBB.SnaggedJunkTitle>釣到點「東西」了</RBB.SnaggedJunkTitle>
+  <RBB.SnaggedJunk>釣魚時釣到一些垃圾:</RBB.SnaggedJunk>
+  <RBB.FishingSuccessTitle>釣到魚了！</RBB.FishingSuccessTitle>
+  <RBB.SunkenTreasureTitle>釣到沉沒的寶藏！</RBB.SunkenTreasureTitle>
+  <RBB.SunkenTreasureText>釣魚時釣到了寶藏: </RBB.SunkenTreasureText>
+
+  <RBB.Arapaima>釣到一條巨骨舌魚！牠真大隻！</RBB.Arapaima>
+  <RBB.Eel>釣到鰻魚。</RBB.Eel>
+  <RBB.Fish>釣到一條魚。</RBB.Fish>
+  <RBB.Jellyfish>釣到一隻水母，幸運的沒被螫到。</RBB.Jellyfish>
+  <RBB.Piranha>釣到一隻食人魚。</RBB.Piranha>
+  <RBB.Pufferfish>釣到一隻河豚！</RBB.Pufferfish>
+  <RBB.Salmon>釣到一條鮭魚</RBB.Salmon>
+  <RBB.SeaCucumber> 釣到海參....</RBB.SeaCucumber>
+  <RBB.Squid>釣到一隻魷魚！</RBB.Squid>
+  <RBB.Sturgeon>釣到一隻鱘魚，如果有魚卵的話或許能吃到魚子醬了？</RBB.Sturgeon>
+  <RBB.TinyFish>釣到一隻小魚。有總比沒有好...</RBB.TinyFish>
+
+  <RBB.TrapLobster>蟹籠抓到龍蝦！</RBB.TrapLobster>
+  <RBB.TrapCrab>蟹籠抓到螃蟹！</RBB.TrapCrab>
+  <RBB.TrapShrimp>蟹籠抓到蝦子。</RBB.TrapShrimp>
+  <RBB.TrapFish>蟹籠抓到小魚。</RBB.TrapFish>
+  <RBB.TrapCrayfish>蟹籠抓到小龍蝦。</RBB.TrapCrayfish>
+  <RBB.TrapSnail>蟹籠抓到蝸牛。</RBB.TrapSnail>
+
+  <RBB.TrapDestroyed>蟹籠毀壞了。</RBB.TrapDestroyed>
+
+  <RBB.failureLevel>告知類別: 釣不到東西...</RBB.failureLevel>
+  <RBB.junkLevel>告知類別: 釣到點「東西」了</RBB.junkLevel>
+  <RBB.successLevel>告知類別: 釣到魚了！</RBB.successLevel>
+  <RBB.treasureLevel>告知類別: 釣到沉沒的寶藏！</RBB.treasureLevel>
+
+  <RBB.NoticeNone>無告知</RBB.NoticeNone>
+  <RBB.NoticeSilent>簡單文字告知:無音效</RBB.NoticeSilent>
+  <RBB.NoticeDing>簡單文字告知並帶有音效</RBB.NoticeDing>
+  <RBB.NoticeBox>一個需要點擊的訊息方塊</RBB.NoticeBox>
+
+  <RBB.FishersHaul>釣魚者自行把魚搬到儲藏區。</RBB.FishersHaul>
+  <RBB.FishersHaulTip>如果核取了此選項，當釣魚的居民釣到任何東西時，將會暫停並將其搬運至鄰近的儲存區，這會使釣魚變得缺乏效率，但會避免其他居民中斷原本的工作去搬運魚。</RBB.FishersHaulTip>
+
+  <!--
+	<RBB.BasicBridges>Rainbeau's Basic Bridges</RBB.BasicBridges>
+	
+	<RBB.BasicBridge>Must be placed on shallow water or marsh</RBB.BasicBridge>
+	<RBB.DeepWaterBridge>Must be placed on deep water</RBB.DeepWaterBridge>
+	<RBB.Boardwalk>Must be placed on a tile adjacent to water</RBB.Boardwalk>
+	<RBB.NoFloorOnBridge>Cannot lay flooring on top of a bridge</RBB.NoFloorOnBridge>
+	<RBB.NotOnFS>Cannot be placed over a fishing spot</RBB.NotOnFS>
+	<RBB.FSTooClose>Another fishing spot is too close</RBB.FSTooClose>
+	<RBB.FishingSpot1>Must be placed with the fishing spot over water or marsh, not mud</RBB.FishingSpot1>
+	<RBB.FishingSpot2>Must be placed with the fishing spot over water and the interaction spot on a bridge or pier</RBB.FishingSpot2>
+	<RBB.ShellfishTrap>Must be placed on water or marsh adjacent to a bridge or boardwalk.</RBB.ShellfishTrap>
+	<RBB.TrapTooClose>Another shellfish trap is too close.</RBB.TrapTooClose>
+	-->
+  <!--	
+	<RBB.failureLevel>Notification Type: Fishing Failures</RBB.failureLevel>
+	<RBB.junkLevel>Notification Type: "Junk" Catches</RBB.junkLevel>
+	<RBB.successLevel>Notification Type: Fishing Successes</RBB.successLevel>
+	<RBB.treasureLevel>Notification Type: Sunken Treasure</RBB.treasureLevel>
+	
+	<RBB.NoticeNone>No notification.</RBB.NoticeNone>
+	<RBB.NoticeSilent>Simple text notification; no sound.</RBB.NoticeSilent>
+	<RBB.NoticeDing>Simple text notification with an alert "ding."</RBB.NoticeDing>
+	<RBB.NoticeBox>An event box which must be dismissed.</RBB.NoticeBox>
+	
+	<RBB.FishersHaul>Fishing Pawns Haul Their Own Catches to Storage.</RBB.FishersHaul>
+	<RBB.FishersHaulTip>If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead.</RBB.FishersHaulTip>
+	-->
+
+</LanguageData>

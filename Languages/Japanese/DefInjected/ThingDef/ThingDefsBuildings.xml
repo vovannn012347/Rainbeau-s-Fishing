@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB_FishingSpot.label>釣り場</RBB_FishingSpot.label>
+  <RBB_FishingSpot.description>入植者が落ち着いて魚釣りを楽しめる場所。水の横にある橋や桟橋の上に設置します。</RBB_FishingSpot.description>
+  <Blueprint_RBB_FishingSpot.label>釣り場(設計)</Blueprint_RBB_FishingSpot.label>
+  <Frame_RBB_FishingSpot.label>釣り場(施工)</Frame_RBB_FishingSpot.label>
+  <Frame_RBB_FishingSpot.description>入植者が落ち着いて魚釣りを楽しめる場所。水の横にある橋や桟橋の上に設置します。</Frame_RBB_FishingSpot.description>
+
+  <ShellfishTrap.label>カニ籠</ShellfishTrap.label>
+  <ShellfishTrap.description>カニ（ロブスター、カニ、ザリガニなど）を捕まえるための罠。エスカルゴ、エビ、小さな魚も捕まえることがあります。</ShellfishTrap.description>
+  <Blueprint_ShellfishTrap.label>カニ籠(設計)</Blueprint_ShellfishTrap.label>
+  <Frame_ShellfishTrap.label>カニ籠(施工)</Frame_ShellfishTrap.label>
+  <Frame_ShellfishTrap.description>カニ（ロブスター、カニ、ザリガニなど）を捕まえるための罠。エスカルゴ、エビ、小さな魚も捕まえることがあります。</Frame_ShellfishTrap.description>
+
+</LanguageData>

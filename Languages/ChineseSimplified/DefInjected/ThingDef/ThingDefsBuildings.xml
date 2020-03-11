@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB_FishingSpot.label>钓鱼点</RBB_FishingSpot.label>
+  <RBB_FishingSpot.description>一处钓鱼点，小人可以在此放松或者钓鱼. 需要放置在桥上或者水边的地面上.</RBB_FishingSpot.description>
+  <RBB_FishingSpot_Blueprint.label>钓鱼点（蓝图）</RBB_FishingSpot_Blueprint.label>
+  <RBB_FishingSpot_Frame.label>钓鱼点（建造中）</RBB_FishingSpot_Frame.label>
+  <RBB_FishingSpot_Frame.description>一处钓鱼点，小人可以在此放松或者钓鱼. 需要放置在桥上或者水边的地面上.</RBB_FishingSpot_Frame.description>
+
+  <ShellfishTrap.label>螃蟹笼</ShellfishTrap.label>
+  <ShellfishTrap.description>一个螃蟹笼，可以用来诱捕甲壳类生物（大龙虾，螃蟹，小龙虾等），有时也能抓到蜗牛，基围虾和小鱼.</ShellfishTrap.description>
+  <ShellfishTrap_Blueprint.label>螃蟹笼（蓝图）</ShellfishTrap_Blueprint.label>
+  <ShellfishTrap_Frame.label>螃蟹笼（建造中）</ShellfishTrap_Frame.label>
+  <ShellfishTrap_Frame.description>一个螃蟹笼，可以用来诱捕甲壳类生物（大龙虾，螃蟹，小龙虾等），有时也能抓到蜗牛，基围虾和小鱼.</ShellfishTrap_Frame.description>
+
+
+</LanguageData>

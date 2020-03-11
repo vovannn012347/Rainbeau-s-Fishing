@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB.TragedyTitle>垂钓事故!</RBB.TragedyTitle>
+  <RBB.TragedyText> 被一条具有攻击性的鱼咬了（或者是鳗鱼）. 需要医疗照顾!</RBB.TragedyText>
+  <RBB.TragedyPiranhaText> 被一尾水虎鱼攻击了. 需要医疗照顾!</RBB.TragedyPiranhaText>
+  <RBB.TragedyJellyfishText> 被一只水母蛰了! 需要医疗照顾!</RBB.TragedyJellyfishText>
+
+  <RBB.CaughtNothingTitle>垂钓失败</RBB.CaughtNothingTitle>
+  <RBB.CaughtNothing> 没有成功钓到鱼.</RBB.CaughtNothing>
+  <RBB.SnaggedJunkTitle>垂钓"成功"</RBB.SnaggedJunkTitle>
+  <RBB.SnaggedJunk> 钓到了奇怪的东西: </RBB.SnaggedJunk>
+  <RBB.FishingSuccessTitle>垂钓成功</RBB.FishingSuccessTitle>
+  <RBB.SunkenTreasureTitle>沉没的财宝</RBB.SunkenTreasureTitle>
+  <RBB.SunkenTreasureText> 钓到了宝箱: </RBB.SunkenTreasureText>
+
+  <RBB.Arapaima> 钓到了巨骨舌鱼! 好大!</RBB.Arapaima>
+  <RBB.Eel> 钓到了鳗鱼.</RBB.Eel>
+  <RBB.Fish> 钓到了鱼.</RBB.Fish>
+  <RBB.Jellyfish> 钓到了水母, 而且没被蛰到!</RBB.Jellyfish>
+  <RBB.Piranha> 钓到了水虎鱼.</RBB.Piranha>
+  <RBB.Pufferfish> 钓到了河豚!</RBB.Pufferfish>
+  <RBB.Salmon> 钓到了三文鱼.</RBB.Salmon>
+  <RBB.SeaCucumber> 钓到了海参....</RBB.SeaCucumber>
+  <RBB.Squid> 钓到了章鱼!</RBB.Squid>
+  <RBB.Sturgeon> 钓到了鲟鱼! 要不要试试鱼子酱?</RBB.Sturgeon>
+  <RBB.TinyFish> 钓到了鱼苗. 至少比什么都没有好....</RBB.TinyFish>
+
+  <RBB.TrapLobster>一个螃蟹笼抓到了大龙虾!</RBB.TrapLobster>
+  <RBB.TrapCrab>一个螃蟹笼抓到了螃蟹.</RBB.TrapCrab>
+  <RBB.TrapShrimp>一个螃蟹笼抓到了基围虾.</RBB.TrapShrimp>
+  <RBB.TrapFish>一个螃蟹笼抓到了鱼.</RBB.TrapFish>
+  <RBB.TrapCrayfish>一个螃蟹笼抓到了小龙虾.</RBB.TrapCrayfish>
+  <RBB.TrapSnail>一个螃蟹笼抓到了蜗牛.</RBB.TrapSnail>
+
+  <RBB.TrapDestroyed>一个螃蟹笼永久的损坏了.</RBB.TrapDestroyed>
+
+  <RBB.failureLevel>提示类型: 垂钓失败</RBB.failureLevel>
+  <RBB.junkLevel>提示类型: 钓到垃圾</RBB.junkLevel>
+  <RBB.successLevel>提示类型: 垂钓成功</RBB.successLevel>
+  <RBB.treasureLevel>提示类型: 钓到宝箱</RBB.treasureLevel>
+
+  <RBB.NoticeNone>无提示.</RBB.NoticeNone>
+  <RBB.NoticeSilent>简洁提示; 静音.</RBB.NoticeSilent>
+  <RBB.NoticeDing>简短的文字提示和警告声</RBB.NoticeDing>
+  <RBB.NoticeBox>事件对话框.</RBB.NoticeBox>
+
+  <RBB.FishersHaul>垂钓的小人自行搬运垂钓到的物品到储藏区.</RBB.FishersHaul>
+  <RBB.FishersHaulTip>如果勾选，垂钓的小人每次垂钓成功都会自行搬运至附近的储藏区. 这将会降低垂钓的效率，但是不会干扰到其他小人的工作.</RBB.FishersHaulTip>
+
+</LanguageData>

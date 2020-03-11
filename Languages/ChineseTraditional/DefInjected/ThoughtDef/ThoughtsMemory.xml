@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteSushi.stages.0.label>吃了散壽司</AteSushi.stages.0.label>
+  <AteSushi.stages.0.description>我吃了一碗散壽司，相當美味！</AteSushi.stages.0.description>
+
+  <AteShellfish.stages.0.label>喝了海鮮湯</AteShellfish.stages.0.label>
+  <AteShellfish.stages.0.description>我喝了點海鮮湯，真是美味！</AteShellfish.stages.0.description>
+
+  <AteEscargot.stages.0.label>吃了法式烤蝸牛</AteEscargot.stages.0.label>
+  <AteEscargot.stages.0.description>我吃了點法式烤蝸牛，那嘗起來頗不錯，但是...我吃了蝸牛，這口感還蠻奇特的。</AteEscargot.stages.0.description>
+
+  <AteShrimpScampi.stages.0.label>吃了蒜香鮮蝦</AteShrimpScampi.stages.0.label>
+  <AteShrimpScampi.stages.0.description>我吃了點蒜香鮮蝦，真是美味！</AteShrimpScampi.stages.0.description>
+
+  <AteCaviar.stages.0.label>吃了魚子醬</AteCaviar.stages.0.label>
+  <AteCaviar.stages.0.description>我吃了點魚子醬，雖然有點腥味，但真是豪奢！</AteCaviar.stages.0.description>
+
+
+</LanguageData>

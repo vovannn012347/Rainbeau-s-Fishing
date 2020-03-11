@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSushi.label>寿司を作る</CookMealSushi.label>
+  <CookMealSushi.description>美味しい寿司を作ります。（材料として魚の肉、米、野菜が必要です）</CookMealSushi.description>
+  <CookMealSushi.jobString>寿司を調理中</CookMealSushi.jobString>
+
+  <CookMealBoiledShellfish.label>カニを茹でる</CookMealBoiledShellfish.label>
+  <CookMealBoiledShellfish.description>鍋に入れたカニを茹でます。（甲殻類[ロブスター、カニ、ザリガニ]と野菜が必要です）</CookMealBoiledShellfish.description>
+  <CookMealBoiledShellfish.jobString>カニを調理中</CookMealBoiledShellfish.jobString>
+
+  <CookMealEscargot.label>エスカルゴを調理する</CookMealEscargot.label>
+  <CookMealEscargot.description>皿一杯のカタツムリを調理します。</CookMealEscargot.description>
+  <CookMealEscargot.jobString>エスカルゴを調理中</CookMealEscargot.jobString>
+
+  <CookMealShrimpScampi.label>エビチリを作る</CookMealShrimpScampi.label>
+  <CookMealShrimpScampi.description>皿に盛り付けられたシュリンプスキャンピ(北米版エビチリ)を調理します。</CookMealShrimpScampi.description>
+  <CookMealShrimpScampi.jobString>エビを調理中</CookMealShrimpScampi.jobString>
+
+  <Cook4MealSushi.label>寿司を4つ作る</Cook4MealSushi.label>
+  <Cook4MealSushi.description>4食分の食材から美味しい寿司を作ります。（材料として魚の肉、米、野菜が必要です)</Cook4MealSushi.description>
+  <Cook4MealSushi.jobString>寿司を調理中</Cook4MealSushi.jobString>
+
+  <Cook4MealBoiledShellfish.label>カニを4つ茹でる</Cook4MealBoiledShellfish.label>
+  <Cook4MealBoiledShellfish.description>鍋に入れたカニを４つ茹でます。（甲殻類[ロブスター、カニ、ザリガニ]と野菜が必要です）</Cook4MealBoiledShellfish.description>
+  <Cook4MealBoiledShellfish.jobString>カニを調理中</Cook4MealBoiledShellfish.jobString>
+
+  <Cook4MealEscargot.label>エスカルゴを4つ調理する</Cook4MealEscargot.label>
+  <Cook4MealEscargot.description>４皿分のカタツムリを調理します。</Cook4MealEscargot.description>
+  <Cook4MealEscargot.jobString>エスカルゴを調理中</Cook4MealEscargot.jobString>
+
+  <Cook4MealShrimpScampi.label>エビチリを4つ作る</Cook4MealShrimpScampi.label>
+  <Cook4MealShrimpScampi.description>皿に盛り付けられたシュリンプスキャンピ(北米版エビチリ)を4食分調理します。</Cook4MealShrimpScampi.description>
+  <Cook4MealShrimpScampi.jobString>エビを調理中</Cook4MealShrimpScampi.jobString>
+
+  <MakeCucumberMed.label>ナマコから薬草を作る</MakeCucumberMed.label>
+  <MakeCucumberMed.description>ナマコから薬草を作成します。</MakeCucumberMed.description>
+  <MakeCucumberMed.jobString>ナマコから薬草を作成中</MakeCucumberMed.jobString>
+
+
+</LanguageData>

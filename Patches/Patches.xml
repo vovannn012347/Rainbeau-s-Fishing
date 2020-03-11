@@ -1,0 +1,456 @@
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "Marsh"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+		<value>
+			<li>Fishable</li>
+		</value>
+	</Operation>
+	
+	<!-- Ice Affordances for Ice Fishing -->
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceST"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceS"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceDT"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceD"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceSMT"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceSM"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceDMT"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceDM"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "IceShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "IceShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "IceShallow"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "TKKN_Ice"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "TKKN_Ice"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_Ice"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "TKKN_MuddyIce"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "TKKN_MuddyIce"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_MuddyIce"]/affordances</xpath>
+		<value>
+			<li>IceFishable</li>
+		</value>
+	</Operation>	
+	
+	<!-- Ice Fishing -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "IceST"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ThingDef>
+						<defName>RBB_IceFishingSpot</defName>
+					</ThingDef>
+					<WorkGiverDef>
+						<defName>WorkGiver_IceFish</defName>
+					</WorkGiverDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "IceShallow"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "RBB_IceFishingSpot"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ThingDef>
+						<defName>RBB_IceFishingSpot</defName>
+					</ThingDef>
+					<WorkGiverDef>
+						<defName>WorkGiver_IceFish</defName>
+					</WorkGiverDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "TKKN_Ice"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "RBB_IceFishingSpot"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ThingDef>
+						<defName>RBB_IceFishingSpot</defName>
+					</ThingDef>
+					<WorkGiverDef>
+						<defName>WorkGiver_IceFish</defName>
+					</WorkGiverDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "RBB_IceFishingSpot"]</xpath>
+		<value>
+			<label>ice fishing spot</label>
+			<description>A spot from which pawns can catch fish through ice.</description>
+			<category>Building</category>
+			<thingClass>RBB_Code.Building_FishingSpot</thingClass>
+			<graphicData>
+				<texPath>IceFishingSpot</texPath>
+				<shaderType>MetaOverlay</shaderType>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(1,1)</drawSize>
+			</graphicData>
+			<tickerType>Rare</tickerType>
+			<altitudeLayer>FloorEmplacement</altitudeLayer>
+			<statBases>
+				<WorkToBuild>250</WorkToBuild>
+				<SellPriceFactor>0.70</SellPriceFactor>
+			</statBases>
+			<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+			<selectable>true</selectable>
+			<drawerType>MapMeshAndRealTime</drawerType>
+			<repairEffect>Repair</repairEffect>
+			<scatterableOnMapGen>false</scatterableOnMapGen>
+			<useHitPoints>False</useHitPoints>
+			<size>(1,1)</size>
+			<designationCategory>Production</designationCategory>
+			<passability>Standable</passability>
+			<hasInteractionCell>True</hasInteractionCell>
+			<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+			<surfaceType>Item</surfaceType>
+			<comps>
+				<li><compClass>CompForbiddable</compClass></li>
+			</comps>
+			<building>
+				<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			</building>
+			<terrainAffordanceNeeded>IceFishable</terrainAffordanceNeeded>
+			<placeWorkers>
+				<li>RBB_Code.PlaceWorker_IceFishingSpot</li>
+			</placeWorkers>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/WorkGiverDef[defName = "WorkGiver_IceFish"]</xpath>
+		<value>
+			<label>catch fish</label>
+			<giverClass>RBB_Code.WorkGiver_IceFish</giverClass>
+			<workType>Fishing</workType>
+			<fixedBillGiverDefs>
+				<li>RBB_IceFishingSpot</li>
+			</fixedBillGiverDefs>
+			<verb>fish</verb>
+			<gerund>fishing</gerund>
+			<requiredCapacities>
+				<li>Manipulation</li>
+			</requiredCapacities>
+		</value>
+	</Operation>
+	
+	<!-- "Monster Mash" Snail Meat Fix -->
+	
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "CarrionCrawler"]/statBases/MeatAmount</xpath>
+		<value>
+			<MeatAmount>0</MeatAmount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "CarrionCrawler"]/butcherProducts</xpath>
+		<value>
+			<butcherProducts>
+				<MM_CarrionCrawlerShell>1</MM_CarrionCrawlerShell>
+				<RawSnailMeat>100</RawSnailMeat>
+			</butcherProducts>
+		</value>
+	</Operation>
+
+</Patch>

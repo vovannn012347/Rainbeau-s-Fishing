@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RBB.Fishing>Rainbeau's Fishing</RBB.Fishing>
+
+	<RBB.NotOnFS>Cannot be placed over a fishing spot</RBB.NotOnFS>
+	<RBB.FSTooClose>Another fishing spot is too close (within 9 tiles)</RBB.FSTooClose>
+	<RBB.FishingSpot1>Must be placed with the fishing spot over water or marsh</RBB.FishingSpot1>
+	<RBB.FishingSpot2>Must be placed with the fishing spot (mouse cursor) over water and the interaction spot (white circle) on land or a bridge</RBB.FishingSpot2>
+	<RBB.ShellfishTrap>Must be placed on water or marsh adjacent to land or a bridge</RBB.ShellfishTrap>
+	<RBB.TrapTooClose>Another shellfish trap is too close (within 6 tiles)</RBB.TrapTooClose>
+
+	<RBB.TragedyTitle>Fishing Tragedy!</RBB.TragedyTitle>
+	<RBB.TragedyText> was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required!</RBB.TragedyText>
+	<RBB.TragedyPiranhaText> was attacked by a school of piranhas! Medical attention may be required!</RBB.TragedyPiranhaText>
+	<RBB.TragedyJellyfishText> was badly stung by a jellyfish! Medical attention may be required!</RBB.TragedyJellyfishText>
+
+	<RBB.CaughtNothingTitle>Fishing Failure</RBB.CaughtNothingTitle>
+	<RBB.CaughtNothing> failed to catch anything while fishing.</RBB.CaughtNothing>
+	<RBB.SnaggedJunkTitle>Fishing "Success"</RBB.SnaggedJunkTitle>
+	<RBB.SnaggedJunk> snagged some trash while fishing: </RBB.SnaggedJunk>
+	<RBB.FishingSuccessTitle>Fishing Success</RBB.FishingSuccessTitle>
+	<RBB.SunkenTreasureTitle>Sunken Treasure</RBB.SunkenTreasureTitle>
+	<RBB.SunkenTreasureText> found treasure while fishing: </RBB.SunkenTreasureText>
+	
+	<RBB.Arapaima> caught an arapaima! It's huge!</RBB.Arapaima>
+	<RBB.Eel> caught an eel.</RBB.Eel>
+	<RBB.Fish> caught a fish.</RBB.Fish>
+	<RBB.Jellyfish> caught a jellyfish, fortunately without being stung!</RBB.Jellyfish>
+	<RBB.Piranha> caught a piranha.</RBB.Piranha>
+	<RBB.Pufferfish> caught a pufferfish!</RBB.Pufferfish>
+	<RBB.Salmon> caught a salmon.</RBB.Salmon>
+	<RBB.SeaCucumber> caught a sea cucumber....</RBB.SeaCucumber>
+	<RBB.Squid> managed to catch a squid!</RBB.Squid>
+	<RBB.Sturgeon> caught a sturgeon! Maybe you'll be eating caviar soon?</RBB.Sturgeon>
+	<RBB.TinyFish> caught a tiny fish. Better than nothing....</RBB.TinyFish>
+	<RBB.Bass> caught a bass.</RBB.Bass>
+	<RBB.Catfish> caught a catfish.</RBB.Catfish>
+	
+	<RBB.TrapLobster>A shellfish trap caught a lobster!</RBB.TrapLobster>
+	<RBB.TrapCrab>A shellfish trap caught a crab.</RBB.TrapCrab>
+	<RBB.TrapShrimp>A shellfish trap caught some shrimp.</RBB.TrapShrimp>
+	<RBB.TrapFish>A shellfish trap caught some tiny fish.</RBB.TrapFish>
+	<RBB.TrapCrayfish>A shellfish trap caught some crayfish.</RBB.TrapCrayfish>
+	<RBB.TrapSnail>A shellfish trap caught some snails.</RBB.TrapSnail>
+	
+	<RBB.TrapDestroyed>A shellfish trap has been damaged beyond repair.</RBB.TrapDestroyed>
+	
+	<RBB.FishingEfficiency>Pawn Fishing Efficiency:</RBB.FishingEfficiency>
+	<RBB.FishingEfficiencyTip>Lower this setting if you feel your pawns are providing too many fish; increase it if you feel they're not providing enough.</RBB.FishingEfficiencyTip>
+
+	<RBB.TrapEfficiency>Shellfish Trap Efficiency:</RBB.TrapEfficiency>
+	<RBB.TrapEfficiencyTip>Lower this setting if you feel your traps are yielding too much; increase it if you feel they're not yielding enough.</RBB.TrapEfficiencyTip>
+	
+	<RBB.failureLevel>Notification Type: Fishing Failures</RBB.failureLevel>
+	<RBB.junkLevel>Notification Type: "Junk" Catches</RBB.junkLevel>
+	<RBB.successLevel>Notification Type: Fishing Successes</RBB.successLevel>
+	<RBB.treasureLevel>Notification Type: Sunken Treasure</RBB.treasureLevel>
+	
+	<RBB.NoticeNone>No notification.</RBB.NoticeNone>
+	<RBB.NoticeSilent>Simple text notification; no sound.</RBB.NoticeSilent>
+	<RBB.NoticeDing>Simple text notification with an alert "ding."</RBB.NoticeDing>
+	<RBB.NoticeBox>An event box which must be dismissed.</RBB.NoticeBox>
+	
+	<RBB.FishersHaul>Fishing Pawns Haul Their Own Catches to Storage.</RBB.FishersHaul>
+	<RBB.FishersHaulTip>If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead.</RBB.FishersHaulTip>
+
+	<RBB.UseRecipes>Use Seafood Recipes.</RBB.UseRecipes>
+	<RBB.UseRecipesTip>If this option is unchecked, the mod's seafood recipes will no longer appear as bills at stoves. This will keep the bills list shorter. (Fish and shellfish meat will of course still be usable as ingredients in vanilla meals.) Note that changes to this setting require a game restart before they will take effect.</RBB.UseRecipesTip>
+	
+</LanguageData>

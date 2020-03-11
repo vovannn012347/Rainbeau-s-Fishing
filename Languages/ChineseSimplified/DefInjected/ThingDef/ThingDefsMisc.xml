@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GENERIC FISH -->
+
+  <RawFish.label>鱼</RawFish.label>
+  <RawFish.description>生鱼，需要处理了才能吃.</RawFish.description>
+
+  <RawFishTiny.label>鱼苗</RawFishTiny.label>
+  <RawFishTiny.description>生鱼苗（真的要吃吗？），需要处理了才能吃.</RawFishTiny.description>
+
+
+  <!-- RAINFOREST FISH -->
+
+  <Arapaima.label>巨骨舌鱼</Arapaima.label>
+  <Arapaima.description>巨骨舌鱼是一种生活在热带水域里的大型淡水鱼. 需要处理了才能吃.</Arapaima.description>
+
+  <Piranha.label>水虎鱼</Piranha.label>
+  <Piranha.description>水虎鱼以它们锋利的牙齿和有力的下颚而著名. 需要处理了才能吃.</Piranha.description>
+
+
+  <!-- COLD BIOME FISH -->
+
+  <Salmon.label>三文鱼</Salmon.label>
+  <Salmon.description>一条三文鱼. 需要处理了才能吃.</Salmon.description>
+
+
+  <!-- TEMPERATE FOREST FISH -->
+
+  <Sturgeon.label>鲟鱼</Sturgeon.label>
+  <Sturgeon.description>鲟鱼是一种亚热带、温带、亚寒带的大型原生淡水鱼。虽然不是理想的鱼肉来源，但是从鲟鱼的身上可以取下大量的鱼卵，可以用作为鱼子酱的原料.</Sturgeon.description>
+
+  <SturgeonCaviar.label>鲟鱼（鱼子酱）</SturgeonCaviar.label>
+  <SturgeonCaviar.description>鲟鱼是一种亚热带、温带、亚寒带的大型原生淡水鱼。虽然不是理想的鱼肉来源，但是从鲟鱼的身上可以取下大量的鱼卵，可以用作为鱼子酱的原料.</SturgeonCaviar.description>
+
+
+  <!-- (MOSTLY) OCEAN FISH -->
+
+  <Eel.label>鳗鱼</Eel.label>
+  <Eel.description>生鳗鱼. 需要处理了才能吃.</Eel.description>
+
+  <Jellyfish.label>水母</Jellyfish.label>
+  <Jellyfish.description>水母. 需要处理后才能食用.</Jellyfish.description>
+
+  <Pufferfish.label>河豚</Pufferfish.label>
+  <Pufferfish.description>河豚. 需要处理后才能食用.</Pufferfish.description>
+
+  <SeaCucumber.label>海参</SeaCucumber.label>
+  <SeaCucumber.description>海参. 需要处理后才能食用.</SeaCucumber.description>
+
+  <Squid.label>章鱼</Squid.label>
+  <Squid.description>章鱼. 需要处理后才能食用.</Squid.description>
+
+
+  <!-- SHELLFISH -->
+
+  <Lobster.label>龙虾</Lobster.label>
+  <Lobster.description>龙虾. 看起来像只巨大的小强. 可以生吃，但是煮熟后口感更好.</Lobster.description>
+
+  <Crab.label>螃蟹</Crab.label>
+  <Crab.description>螃蟹. 可以生吃，但是煮熟后口感更好.</Crab.description>
+
+  <Crayfish.label>小龙虾</Crayfish.label>
+  <Crayfish.description>小龙虾. 可以生吃，但是煮熟后口感更好.</Crayfish.description>
+
+  <Snail.label>蜗牛</Snail.label>
+  <Snail.description>蜗牛. 可以生吃，但是煮熟后口感更好. 不过好不了多少，毕竟是蜗牛.</Snail.description>
+
+  <Shrimp.label>基围虾</Shrimp.label>
+  <Shrimp.description>基围虾. 可以生吃，但是煮熟后口感更好.</Shrimp.description>
+
+
+  <!-- FISHY PRODUCTS -->
+
+  <RawFishMeat.label>鱼肉</RawFishMeat.label>
+  <RawFishMeat.description>鱼肉. 可以就这样生吃，但是最好还是吃熟的.</RawFishMeat.description>
+
+  <RawSquidMeat.label>章鱼肉</RawSquidMeat.label>
+  <RawSquidMeat.description>章鱼肉. 可以就这样生吃，但是最好还是吃熟的.</RawSquidMeat.description>
+
+  <SquidLeather.label>章鱼皮</SquidLeather.label>
+  <SquidLeather.description>章鱼皮，只是摸起来像是皮. 从章鱼身上剥下来的.</SquidLeather.description>
+  <SquidLeather.stuffProps.stuffAdjective>章鱼皮</SquidLeather.stuffProps.stuffAdjective>
+
+  <RawEelMeat.label>鳗鱼肉</RawEelMeat.label>
+  <RawEelMeat.description>鳗鱼肉. 可以就这样生吃，但是最好还是吃熟的.</RawEelMeat.description>
+
+  <EelLeather.label>鳗鱼皮</EelLeather.label>
+  <EelLeather.description>鳗鱼皮，只是摸起来像是皮. 从鳗鱼身上剥下来的.</EelLeather.description>
+  <EelLeather.stuffProps.stuffAdjective>eel skin</EelLeather.stuffProps.stuffAdjective>
+
+  <JellyfishMeat.label>海蜇丝</JellyfishMeat.label>
+  <JellyfishMeat.description>海蜇丝. 可以就这样生吃，但是最好还是吃熟的.</JellyfishMeat.description>
+
+  <PufferfishMeat.label>河豚肉</PufferfishMeat.label>
+  <PufferfishMeat.description>河豚肉. 生吃有毒，需要熟练的厨师才能正确的烹饪.</PufferfishMeat.description>
+
+  <SeaCucumberMeat.label>海参肉</SeaCucumberMeat.label>
+  <SeaCucumberMeat.description>海参肉. 可以生吃，不过药用价值更高.</SeaCucumberMeat.description>
+
+
+  <!-- FOOD -->
+
+  <MealSushi.label>寿司</MealSushi.label>
+  <MealSushi.description>一份寿司，用生鱼肉和米饭直接做成的.</MealSushi.description>
+
+  <MealBoiledShellfish.label>熟海鲜</MealBoiledShellfish.label>
+  <MealBoiledShellfish.description>一份煮熟的海鲜.</MealBoiledShellfish.description>
+
+  <MealEscargot.label>法式焗蜗牛</MealEscargot.label>
+  <MealEscargot.description>法式焗蜗牛，反正还是蜗牛.</MealEscargot.description>
+
+  <MealShrimpScampi.label>基围虾</MealShrimpScampi.label>
+  <MealShrimpScampi.description>一份基围虾.</MealShrimpScampi.description>
+
+  <Caviar.label>鱼子酱</Caviar.label>
+  <Caviar.description>一份用盐处理过的鲟鱼卵做成的佳肴.</Caviar.description>
+
+
+</LanguageData>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef>
+		<defName>RBB_FishingSpot</defName>
+		<label>fishing spot</label>
+		<description>A spot from which pawns can relax and catch fish.</description>
+		<category>Building</category>
+		<thingClass>RBB_Code.Building_FishingSpot</thingClass>
+		<graphicData>
+			<texPath>WGSpot</texPath>
+			<shaderType>MetaOverlay</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Standable</passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li><compClass>CompForbiddable</compClass></li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<terrainAffordanceNeeded>Fishable</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>RBB_Code.PlaceWorker_FishingSpot</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>ShellfishTrap</defName>
+		<label>shellfish trap</label>
+		<thingClass>RBB_Code.Building_ShellfishTrap</thingClass>
+		<description>A trap designed to catch shellfish (lobsters, crabs, crayfish and the like). It'll also sometimes catch snails, shrimp and small fish.</description>
+		<graphicData>
+			<texPath>ShellfishTrap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Mass>5</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<useHitPoints>true</useHitPoints>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<tickerType>Rare</tickerType>
+		<pathCost>60</pathCost>
+		<terrainAffordanceNeeded>Fishable</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>RBB_Code.PlaceWorker_ShellfishTrap</li>
+		</placeWorkers>
+		<category>Building</category>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSushi.label>制作生鱼片</CookMealSushi.label>
+  <CookMealSushi.description>制作1份美味的生鱼片.</CookMealSushi.description>
+  <CookMealSushi.jobString>正在制作生鱼片.</CookMealSushi.jobString>
+
+  <CookMealBoiledShellfish.label>煮螃蟹/虾</CookMealBoiledShellfish.label>
+  <CookMealBoiledShellfish.description>煮熟螃蟹/虾.</CookMealBoiledShellfish.description>
+  <CookMealBoiledShellfish.jobString>正在煮螃蟹/虾.</CookMealBoiledShellfish.jobString>
+
+  <CookMealEscargot.label>制作法式焗蜗牛</CookMealEscargot.label>
+  <CookMealEscargot.description>制作1份法式焗蜗牛.</CookMealEscargot.description>
+  <CookMealEscargot.jobString>正在制作法式焗蜗牛.</CookMealEscargot.jobString>
+
+  <CookMealShrimpScampi.label>制作基围虾</CookMealShrimpScampi.label>
+  <CookMealShrimpScampi.description>制作1份基围虾.</CookMealShrimpScampi.description>
+  <CookMealShrimpScampi.jobString>正在制作基围虾.</CookMealShrimpScampi.jobString>
+
+  <Cook4MealSushi.label>制作4份生鱼片</Cook4MealSushi.label>
+  <Cook4MealSushi.description>制作4份美味的生鱼片.</Cook4MealSushi.description>
+  <Cook4MealSushi.jobString>正在制作生鱼片.</Cook4MealSushi.jobString>
+
+  <Cook4MealBoiledShellfish.label>煮4份螃蟹/虾</Cook4MealBoiledShellfish.label>
+  <Cook4MealBoiledShellfish.description>煮熟4份螃蟹/虾.</Cook4MealBoiledShellfish.description>
+  <Cook4MealBoiledShellfish.jobString>正在煮螃蟹/虾.</Cook4MealBoiledShellfish.jobString>
+
+  <Cook4MealEscargot.label>制作4份法式焗蜗牛</Cook4MealEscargot.label>
+  <Cook4MealEscargot.description>制作4份法式焗蜗牛.</Cook4MealEscargot.description>
+  <Cook4MealEscargot.jobString>正在制作法式焗蜗牛.</Cook4MealEscargot.jobString>
+
+  <Cook4MealShrimpScampi.label>制作4份基围虾</Cook4MealShrimpScampi.label>
+  <Cook4MealShrimpScampi.description>制作4份基围虾.</Cook4MealShrimpScampi.description>
+  <Cook4MealShrimpScampi.jobString>正在制作基围虾.</Cook4MealShrimpScampi.jobString>
+
+  <MakeCucumberMed.label>用海参制做草药</MakeCucumberMed.label>
+  <MakeCucumberMed.description>使用海参制作草药.</MakeCucumberMed.description>
+  <MakeCucumberMed.jobString>正在使用海参制作草药.</MakeCucumberMed.jobString>
+
+
+  <!-- OLD RECIPE DEFS FOR BACKWARDS COMPATIBILITY -->
+
+  <CleanFish.label>处理鱼</CleanFish.label>
+  <CleanFish.description>处理活鱼并清理内脏，以便烹饪或者生吃.</CleanFish.description>
+  <CleanFish.jobString>正在处理鱼.</CleanFish.jobString>
+
+  <ButcherEel.label>处理鳗鱼</ButcherEel.label>
+  <ButcherEel.description>切开鳗鱼，获得肉和皮.</ButcherEel.description>
+  <ButcherEel.jobString>正在处理鳗鱼.</ButcherEel.jobString>
+
+  <ButcherSquid.label>处理章鱼</ButcherSquid.label>
+  <ButcherSquid.description>切开章鱼，获得肉和皮</ButcherSquid.description>
+  <ButcherSquid.jobString>正在处理章鱼.</ButcherSquid.jobString>
+
+
+</LanguageData>

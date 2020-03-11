@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GENERIC FISH -->
+
+  <RawFish.label>魚</RawFish.label>
+  <RawFish.description>魚，需要經過清洗後才能食用。</RawFish.description>
+
+  <RawFishTiny.label>小魚</RawFishTiny.label>
+  <RawFishTiny.description>小魚，需要經過清洗後才能食用。</RawFishTiny.description>
+
+
+  <!-- RAINFOREST FISH -->
+
+  <Arapaima.label>巨骨舌魚</Arapaima.label>
+  <Arapaima.description>巨骨舌魚是一種生活在熱帶地區的淡水大型魚類。需要經過清洗後才能食用。</Arapaima.description>
+
+  <Piranha.label>食人魚</Piranha.label>
+  <Piranha.description>食人魚是一種生活在熱帶地區的魚，以其鋒利的牙齒及強力的下顎而聞名。需要經過清洗後才能食用。</Piranha.description>
+
+
+  <!-- COLD BIOME FISH -->
+
+  <Salmon.label>鮭魚</Salmon.label>
+  <Salmon.description>鮭魚，需要經過清洗後才能食用。</Salmon.description>
+
+
+  <!-- TEMPERATE FOREST FISH -->
+
+  <Sturgeon.label>鱘魚</Sturgeon.label>
+  <Sturgeon.description>鱘魚是一種廣泛生活在亞熱帶、溫帶及亞寒帶地區的淡水大型魚類。雖然不算良好的肉類來源，但從部份鱘魚中獲得的魚卵，可以製作成魚子醬。</Sturgeon.description>
+
+  <SturgeonCaviar.label>鱘魚卵</SturgeonCaviar.label>
+  <SturgeonCaviar.description>鱘魚是一種廣泛生活在亞熱帶、溫帶及亞寒帶地區的淡水大型魚類。雖然不算良好的肉類來源，但從部份鱘魚中獲得的魚卵，可以製作成魚子醬。</SturgeonCaviar.description>
+
+
+  <!-- (MOSTLY) OCEAN FISH -->
+
+  <Eel.label>鰻魚</Eel.label>
+  <Eel.description>鰻魚，需要經過清洗後才能食用。</Eel.description>
+
+  <Jellyfish.label>水母</Jellyfish.label>
+  <Jellyfish.description>水母，需要進行屠宰。</Jellyfish.description>
+
+  <Pufferfish.label>河豚</Pufferfish.label>
+  <Pufferfish.description>河豚，需要進行屠宰。</Pufferfish.description>
+
+  <SeaCucumber.label>海參</SeaCucumber.label>
+  <SeaCucumber.description>海參，需要進行屠宰。</SeaCucumber.description>
+
+  <Squid.label>魷魚</Squid.label>
+  <Squid.description>魷魚，需要進行屠宰。</Squid.description>
+
+
+  <!-- SHELLFISH -->
+
+  <Lobster.label>龍蝦</Lobster.label>
+  <Lobster.description>龍蝦，看起來有點像大隻蟑螂。可以生吃，但是煮熟會更好。</Lobster.description>
+
+  <Crab.label>螃蟹</Crab.label>
+  <Crab.description>螃蟹，可以生吃，但是煮熟會更好。</Crab.description>
+
+  <Crayfish.label>小龍蝦</Crayfish.label>
+  <Crayfish.description>小龍蝦，可以生吃，但是煮熟會更好。</Crayfish.description>
+
+  <Snail.label>蝸牛</Snail.label>
+  <Snail.description>蝸牛，可以生吃，但是煮熟會更好...但是只會好一點，畢竟這是一隻蝸牛。</Snail.description>
+
+  <Shrimp.label>蝦子</Shrimp.label>
+  <Shrimp.description>蝦子，可以生吃，但是煮熟會更好。</Shrimp.description>
+
+
+  <!-- FISHY PRODUCTS -->
+
+  <RawFishMeat.label>生魚肉</RawFishMeat.label>
+  <RawFishMeat.description>生魚，可以直接食用，但是料理過會更好。</RawFishMeat.description>
+
+  <RawSquidMeat.label>生魷魚</RawSquidMeat.label>
+  <RawSquidMeat.description>生魷魚，可以直接食用，但是料理過會更好。</RawSquidMeat.description>
+
+  <SquidLeather.label>魷魚皮</SquidLeather.label>
+  <SquidLeather.description>勉強能算是皮革，是由魷魚剝下的皮。</SquidLeather.description>
+  <SquidLeather.stuffProps.stuffAdjective>魷魚皮</SquidLeather.stuffProps.stuffAdjective>
+
+  <RawEelMeat.label>生鰻魚</RawEelMeat.label>
+  <RawEelMeat.description>生鰻魚，可以直接食用，但是料理過會更好。</RawEelMeat.description>
+
+  <EelLeather.label>鰻魚皮</EelLeather.label>
+  <EelLeather.description>勉強能算是皮革，是由鰻魚剝下的皮。</EelLeather.description>
+  <EelLeather.stuffProps.stuffAdjective>鰻魚皮</EelLeather.stuffProps.stuffAdjective>
+
+  <JellyfishMeat.label>生水母</JellyfishMeat.label>
+  <JellyfishMeat.description>生水母，可以直接食用，但是料理過會更好。</JellyfishMeat.description>
+
+  <PufferfishMeat.label>生河豚</PufferfishMeat.label>
+  <PufferfishMeat.description>生河豚，可以直接食用，並不太建議，沒經過適當的處理就食用可能會中毒。</PufferfishMeat.description>
+
+  <SeaCucumberMeat.label>生海參</SeaCucumberMeat.label>
+  <SeaCucumberMeat.description>生海參，可以直接食用，但拿去做成藥品會更有用</SeaCucumberMeat.description>
+
+
+  <!-- FOOD -->
+
+  <MealSushi.label>散壽司</MealSushi.label>
+  <MealSushi.description>一碗散壽司，由米飯與一些生魚肉組成。</MealSushi.description>
+
+  <MealBoiledShellfish.label>海鮮湯</MealBoiledShellfish.label>
+  <MealBoiledShellfish.description>一碗由海鮮煮成的湯。</MealBoiledShellfish.description>
+
+  <MealEscargot.label>法式烤蝸牛</MealEscargot.label>
+  <MealEscargot.description>法式烤蝸牛，或者說，就是個料理過的蝸牛。</MealEscargot.description>
+
+  <MealShrimpScampi.label>蒜香鮮蝦</MealShrimpScampi.label>
+  <MealShrimpScampi.description>一盤蒜香鮮蝦。</MealShrimpScampi.description>
+
+  <Caviar.label>魚子醬</Caviar.label>
+  <Caviar.description>一道由醃製魚卵組成的美味佳餚。</Caviar.description>
+
+
+</LanguageData>

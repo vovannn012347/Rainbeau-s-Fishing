@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RBB_FishingSpot.label>釣魚點</RBB_FishingSpot.label>
+  <RBB_FishingSpot.description>一個讓居民休閒同時還可以釣到魚的地點，放置於鄰近水域的碼頭或橋樑上。</RBB_FishingSpot.description>
+  <RBB_FishingSpot_Blueprint.label>釣魚點(藍圖)</RBB_FishingSpot_Blueprint.label>
+  <RBB_FishingSpot_Frame.label>釣魚點(建築中)</RBB_FishingSpot_Frame.label>
+  <RBB_FishingSpot_Frame.description>一個讓居民休閒同時還可以釣到魚的地點，放置於鄰近水域的碼頭或橋樑上。</RBB_FishingSpot_Frame.description>
+
+  <ShellfishTrap.label>蟹籠</ShellfishTrap.label>
+  <ShellfishTrap.description>一個設計來捕捉蝦蟹類(龍蝦、螃蟹、小龍蝦等)的陷阱，有時也會抓到蝸牛、小魚或是蝦子。</ShellfishTrap.description>
+  <ShellfishTrap_Blueprint.label>蟹籠(藍圖)</ShellfishTrap_Blueprint.label>
+  <ShellfishTrap_Frame.label>蟹籠(建築中)</ShellfishTrap_Frame.label>
+  <ShellfishTrap_Frame.description>一個設計來捕捉蝦蟹類(龍蝦、螃蟹、小龍蝦等)的陷阱，有時也會抓到蝸牛、小魚或是蝦子。</ShellfishTrap_Frame.description>
+
+</LanguageData>

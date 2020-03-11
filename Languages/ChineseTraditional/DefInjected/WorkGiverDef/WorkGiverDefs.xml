@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <HunterHunt.label>打獵</HunterHunt.label>-->
+  <!--[Core] <HunterHunt.verb>獵捕</HunterHunt.verb>-->
+  <!--[Core] <HunterHunt.gerund>狩獵</HunterHunt.gerund>-->
+
+  <WorkGiver_CatchFish.verb>釣魚</WorkGiver_CatchFish.verb>
+  <WorkGiver_CatchFish.gerund>釣魚</WorkGiver_CatchFish.gerund>
+
+
+</LanguageData>

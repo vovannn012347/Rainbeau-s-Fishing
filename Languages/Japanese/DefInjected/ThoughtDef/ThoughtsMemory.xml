@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteSushi.stages.0.label>美味しい寿司を食べた</AteSushi.stages.0.label>
+  <AteSushi.stages.0.description>私は皿にのった寿司を食べました。結構美味しい！</AteSushi.stages.0.description>
+
+  <AteShellfish.stages.0.label>茹でたザニガニを食べた</AteShellfish.stages.0.label>
+  <AteShellfish.stages.0.description>私は何匹か茹でたザリガニを食べました。美味しい!</AteShellfish.stages.0.description>
+
+  <AteEscargot.stages.0.label>エスカルゴを食べた</AteEscargot.stages.0.label>
+  <AteEscargot.stages.0.description>私は何個かエスカルゴを食べました。確かにかなり美味しいですが･･･カタツムリを食べるってちょっと変だと思う。</AteEscargot.stages.0.description>
+
+  <AteShrimpScampi.stages.0.label>エビチリを食べた</AteShrimpScampi.stages.0.label>
+  <AteShrimpScampi.stages.0.description>私はシュリンプスキャンピ(北米版エビチリ)を食べました。美味しい!</AteShrimpScampi.stages.0.description>
+
+  <AteCaviar.stages.0.label>キャビアを食べた</AteCaviar.stages.0.label>
+  <AteCaviar.stages.0.description>私はキャビアをたらふく食べました。魚卵だけど豪華！</AteCaviar.stages.0.description>
+
+
+</LanguageData>

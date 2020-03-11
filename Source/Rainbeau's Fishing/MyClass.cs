@@ -1,5 +1,4 @@
 ﻿using RimWorld;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -153,7 +152,7 @@ namespace RBB_Code {
 	}
 
 	public class PlaceWorker_ShellfishTrap : PlaceWorker {
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null) {
 			TerrainDef terrainDef = map.terrainGrid.TerrainAt(loc);
 			if (terrainDef.defName.Contains("Water") || terrainDef == TerrainDef.Named("Marsh")) {
 				List<Thing> things = map.thingGrid.ThingsListAtFast(loc);
@@ -209,7 +208,7 @@ namespace RBB_Code {
 	}
 	
 	public class PlaceWorker_FishingSpot : PlaceWorker {
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null) {
 			TerrainDef terrainDef = map.terrainGrid.TerrainAt(loc);
 			if (!terrainDef.defName.Contains("Water") && !terrainDef.defName.Equals("Marsh")) {
 				return new AcceptanceReport("RBB.FishingSpot1".Translate());
@@ -253,11 +252,11 @@ namespace RBB_Code {
 			for (int j = 0; j < things.Count; j++) {
 				if (things[j] != thingToIgnore) {
 					if (things[j].def.passability == Traversability.Impassable) {
-						return new AcceptanceReport("InteractionSpotBlocked".Translate(new object[] { things[j].LabelNoCount }).CapitalizeFirst());
+						return new AcceptanceReport(TranslatorFormattedStringExtensions.Translate("InteractionSpotBlocked", things[j].LabelNoCount).CapitalizeFirst());
 					}
 					Blueprint blueprint = things[j] as Blueprint;
 					if (blueprint != null && blueprint.def.entityDefToBuild.passability == Traversability.Impassable) {
-						return new AcceptanceReport("InteractionSpotWillBeBlocked".Translate(new object[] { blueprint.LabelNoCount }).CapitalizeFirst());
+						return new AcceptanceReport(TranslatorFormattedStringExtensions.Translate("InteractionSpotWillBeBlocked", blueprint.LabelNoCount).CapitalizeFirst());
 					}
 				}
 			}
@@ -273,7 +272,7 @@ namespace RBB_Code {
 	}
 
 	public class PlaceWorker_IceFishingSpot : PlaceWorker {
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null) {
 			TerrainDef terrainDef = map.terrainGrid.TerrainAt(loc);
 			if (!terrainDef.defName.Contains("Ice")) {
 				return new AcceptanceReport("RBB.FishingSpot1".Translate());
@@ -315,11 +314,11 @@ namespace RBB_Code {
 			for (int j = 0; j < things.Count; j++) {
 				if (things[j] != thingToIgnore) {
 					if (things[j].def.passability == Traversability.Impassable) {
-						return new AcceptanceReport("InteractionSpotBlocked".Translate(new object[] { things[j].LabelNoCount }).CapitalizeFirst());
+                        return new AcceptanceReport(TranslatorFormattedStringExtensions.Translate("InteractionSpotBlocked", things[j].LabelNoCount).CapitalizeFirst());
 					}
 					Blueprint blueprint = things[j] as Blueprint;
 					if (blueprint != null && blueprint.def.entityDefToBuild.passability == Traversability.Impassable) {
-						return new AcceptanceReport("InteractionSpotWillBeBlocked".Translate(new object[] { blueprint.LabelNoCount }).CapitalizeFirst());
+                        return new AcceptanceReport(TranslatorFormattedStringExtensions.Translate("InteractionSpotWillBeBlocked", blueprint.LabelNoCount).CapitalizeFirst());
 					}
 				}
 			}

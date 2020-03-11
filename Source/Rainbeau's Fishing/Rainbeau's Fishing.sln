@@ -1,8 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 5.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbeau's Fishing", "Rainbeau's Fishing.csproj", "{D0F4E2E3-5571-4F91-8A1E-F1AB89513B92}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbeau's Fishing", "Rainbeau's Fishing.csproj", "{F5D8FB05-7D78-4528-85BD-70B56CA77404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0F4E2E3-5571-4F91-8A1E-F1AB89513B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0F4E2E3-5571-4F91-8A1E-F1AB89513B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0F4E2E3-5571-4F91-8A1E-F1AB89513B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0F4E2E3-5571-4F91-8A1E-F1AB89513B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D8FB05-7D78-4528-85BD-70B56CA77404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D8FB05-7D78-4528-85BD-70B56CA77404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D8FB05-7D78-4528-85BD-70B56CA77404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D8FB05-7D78-4528-85BD-70B56CA77404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC6D7666-C3FA-45C8-AAA8-6EC999B34973}
 	EndGlobalSection
 EndGlobal

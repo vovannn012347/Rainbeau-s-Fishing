@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using UnityEngine;
 using Verse;
 using Verse.AI;
@@ -11,34 +12,55 @@ namespace RBB_Code {
 	internal static class RBB_Initializer {
 		public static bool iceFishing = false;
 		static RBB_Initializer() {
-			LongEventHandler.QueueLongEvent(Setup, "LibraryStartup", false, null);
-		}
-		public static void Setup() {
+
 			if (ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Permafrost")) || ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Dynamic Terrain"))
 			|| ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name == "Ice") || ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name == "Nature's Pretty Sweet")) {
 				iceFishing = true;
 			}
-			bool bulkRecipes = false;
+			bool hasBulkRecipes = false;
 			if (ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Feed The Colonists")) || ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Simple Bulk Cooking"))) {
-				bulkRecipes = true;
+                hasBulkRecipes = true;
 			}
 			if (Controller.Settings.useRecipes.Equals(true)) {
 				List<RecipeDef> RecipeDefs = DefDatabase<RecipeDef>.AllDefsListForReading;
-				List<ThingDef> userList = new List<ThingDef>();
-				userList.Add(ThingDef.Named("ElectricStove"));
-				userList.Add(ThingDef.Named("FueledStove"));             
-				for (int i = 0; i < RecipeDefs.Count; i++) {
-					if (RecipeDefs[i].defName == "CookMealSushi" || RecipeDefs[i].defName == "CookMealBoiledShellfish" || RecipeDefs[i].defName == "CookMealEscargot" || RecipeDefs[i].defName == "CookMealShrimpScampi") {
-						RecipeDefs[i].recipeUsers = userList;
-					}
-					if (bulkRecipes.Equals(true)) {
-						if (RecipeDefs[i].defName == "Cook4MealSushi" || RecipeDefs[i].defName == "Cook4MealBoiledShellfish" || RecipeDefs[i].defName == "Cook4MealEscargot" || RecipeDefs[i].defName == "Cook4MealShrimpScampi") {
-							RecipeDefs[i].recipeUsers = userList;
-						}
-					}
-				}
-			}
+
+                HashSet<string> singleRecipes = new HashSet<string> { "CookMealSushi", "CookMealBoiledShellfish", "CookMealEscargot", "CookMealShrimpScampi" };
+                HashSet<string> bulkRecipes = new HashSet<string> { "Cook4MealSushi", "Cook4MealBoiledShellfish", "Cook4MealEscargot", "Cook4MealShrimpScampi" };
+
+                ThingDef fueledStove = getRecipeSafeStove("FueledStove");
+                ThingDef electricStove = getRecipeSafeStove("ElectricStove");
+
+                getRecipes(singleRecipes).ForEach(recipe => { fueledStove.recipes.Add(recipe); electricStove.recipes.Add(recipe); });
+                if (hasBulkRecipes)
+                {
+                    getRecipes(bulkRecipes).ForEach(recipe => { fueledStove.recipes.Add(recipe); electricStove.recipes.Add(recipe); });
+                }
+                flushRecipeCache(fueledStove);
+                flushRecipeCache(electricStove);
+            }
 		}
+
+        static ThingDef getRecipeSafeStove(string defName)
+        {
+            ThingDef stove = ThingDef.Named(defName);
+            if (stove.recipes == null) stove.recipes = new List<RecipeDef>();
+            return stove;
+        }
+
+        static void flushRecipeCache(ThingDef thing)
+        {
+            FieldInfo field = thing.GetType().GetField("allRecipesCached", BindingFlags.NonPublic | BindingFlags.Instance);
+            object recipeList = field.GetValue(thing);
+            if (recipeList != null)
+            {
+                field.SetValue(thing, null);
+            }
+        }
+
+        static List<RecipeDef> getRecipes(HashSet<string> recipeNames)
+        {
+            return DefDatabase<RecipeDef>.AllDefsListForReading.FindAll(recipe => recipeNames.Contains(recipe.defName));
+        }
 	}
 
 	[DefOf]

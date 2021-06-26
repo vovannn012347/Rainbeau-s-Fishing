@@ -10,4 +10,3 @@ Z:\RFfishing\1.1\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csprojAs
 Z:\RFfishing\1.1\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CoreCompileInputs.cache
 Z:\RFfishing\1.1\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.dll
 Z:\RFfishing\1.1\Assemblies\Rainbeau's Fishing.dll
-Z:\RFfishing\1.1\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CopyComplete

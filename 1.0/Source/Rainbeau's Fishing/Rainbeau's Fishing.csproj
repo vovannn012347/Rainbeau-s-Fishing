@@ -52,9 +52,11 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>C:\Users\Vovik\Desktop\unityRIm1.0\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HugsLib">
       <HintPath>C:\Users\Vovik\Desktop\unityRIm1.0\HugsLib.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -66,6 +68,7 @@
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:\Users\Vovik\Desktop\unityRIm1.0\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

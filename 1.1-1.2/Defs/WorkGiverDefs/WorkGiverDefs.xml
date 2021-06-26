@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>WorkGiver_CatchFish</defName>
+	    <label>catch fish</label>
+		<giverClass>RBB.WorkGiver_CatchFish</giverClass>
+		<workType>Fishing</workType>
+		<verb>fish</verb>
+		<gerund>fishing</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WorkGiver_UnloadCrabPot</defName>
+		<label>unload crab pot</label>
+		<giverClass>RBB.WorkGiver_UnloadCrabPot</giverClass>
+		<workType>Fishing</workType>
+		<verb>unload</verb>
+		<gerund>unloading</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

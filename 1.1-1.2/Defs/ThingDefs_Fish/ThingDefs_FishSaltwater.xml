@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- (MOSTLY) OCEAN FISH -->
+
+	<RBB.FishDef ParentName="RBB_FishBase">
+		<defName>SeaCucumber</defName>
+		<label>sea cucumber</label>
+		<description>A sea cucumber. It needs to be butchered.</description>
+		<graphicData>
+			<texPath>SeaCucumber</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.25</Nutrition>
+			<Mass>0.2</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<SeaCucumberMeat>7</SeaCucumberMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>10</Weight>	
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_FishBase">
+		<defName>Squid</defName>
+		<label>squid</label>
+		<description>A squid. It needs to be butchered.</description>
+		<graphicData>
+			<texPath>Squid</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.65</Nutrition>
+			<Mass>0.6</Mass>
+			<MarketValue>25</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawSquidMeat>18</RawSquidMeat>
+			<SquidLeather>10</SquidLeather>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>10</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>
+
+	<RBB.FishDef ParentName="RBB_FishBase">
+		<defName>Jellyfish</defName>
+		<label>jellyfish</label>
+		<description>A jellyfish. It needs to be butchered.</description>
+		<graphicData>
+			<texPath>Jellyfish</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.2</Nutrition>
+			<Mass>0.1</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<JellyfishMeat>5</JellyfishMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>20</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>
+
+	<RBB.FishDef ParentName="RBB_FishBase">
+		<defName>Pufferfish</defName>
+		<label>pufferfish</label>
+		<description>A pufferfish. It needs to be butchered.</description>
+		<graphicData>
+			<texPath>Pufferfish</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<Mass>0.3</Mass>
+			<MarketValue>10</MarketValue>
+			<FoodPoisonChanceFixedHuman>0.67</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<butcherProducts>
+			<PufferfishMeat>20</PufferfishMeat>
+		</butcherProducts>
+		<comps>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>20</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>
+
+	
+</Defs>

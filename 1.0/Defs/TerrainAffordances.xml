@@ -1,0 +1,15 @@
+<Defs>
+
+	<TerrainAffordanceDef>
+		<defName>Fishable</defName>
+		<label>fishable</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>IceFishable</defName>
+		<label>icefishable</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+</Defs>

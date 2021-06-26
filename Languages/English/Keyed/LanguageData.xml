@@ -4,17 +4,75 @@
 	<RBB.Fishing>Rainbeau's Fishing</RBB.Fishing>
 
 	<RBB.NotOnFS>Cannot be placed over a fishing spot</RBB.NotOnFS>
-	<RBB.FSTooClose>Another fishing spot is too close (within 9 tiles)</RBB.FSTooClose>
 	<RBB.FishingSpot1>Must be placed with the fishing spot over water or marsh</RBB.FishingSpot1>
 	<RBB.FishingSpot2>Must be placed with the fishing spot (mouse cursor) over water and the interaction spot (white circle) on land or a bridge</RBB.FishingSpot2>
 	<RBB.ShellfishTrap>Must be placed on water or marsh adjacent to land or a bridge</RBB.ShellfishTrap>
-	<RBB.TrapTooClose>Another shellfish trap is too close (within 6 tiles)</RBB.TrapTooClose>
 
 	<RBB.TragedyTitle>Fishing Tragedy!</RBB.TragedyTitle>
-	<RBB.TragedyText> was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required!</RBB.TragedyText>
-	<RBB.TragedyPiranhaText> was attacked by a school of piranhas! Medical attention may be required!</RBB.TragedyPiranhaText>
-	<RBB.TragedyJellyfishText> was badly stung by a jellyfish! Medical attention may be required!</RBB.TragedyJellyfishText>
+	<RBB.TragedyTextSpecific>{0} was hurt by {1} when fishing</RBB.TragedyTextSpecific>
 
+	<RBB.CaughtNothingTitle>Fishing Failure</RBB.CaughtNothingTitle>
+	<RBB.SnaggedJunkTitle>Fishing "Success"</RBB.SnaggedJunkTitle>
+	<RBB.FishingSuccessTitle>Fishing Success</RBB.FishingSuccessTitle>
+	<RBB.SunkenTreasureTitle>Sunken Treasure</RBB.SunkenTreasureTitle>
+	
+	<RBB.CaughtNothing1>{0} failed to catch anything while fishing.</RBB.CaughtNothing1>
+	<RBB.SnaggedJunk1>{0} snagged some trash while fishing: {1}.</RBB.SnaggedJunk1>
+	<RBB.FishingCatch1>{0} caught {1}.</RBB.FishingCatch1>
+	<RBB.SunkenTreasureText1>{0} found treasure while fishing: {1}.</RBB.SunkenTreasureText1>
+	
+	<RBB.TrapDestroyed>A shellfish trap has been damaged beyond repair.</RBB.TrapDestroyed>
+	<RBB.TrapCatch>Shellfish trap caught {0}.</RBB.TrapCatch>
+	
+	
+	<RBB.FishingEfficiency>Fishing Efficiency:</RBB.FishingEfficiency>
+	<RBB.FishingEfficiencyTip>Lower this setting if you feel your are provided with too many fish; increase it if you feel they're not providing enough.</RBB.FishingEfficiencyTip>
+
+	<RBB.TrapEfficiency>Shellfish Trap Efficiency:</RBB.TrapEfficiency>
+	<RBB.TrapEfficiencyTip>Lower this setting if you feel your traps are yielding too much; increase it if you feel they're not yielding enough.</RBB.TrapEfficiencyTip>
+	
+	<RBB.NoticeNone>No notification.</RBB.NoticeNone>
+	<RBB.NoticeSilent>Simple text notification; no sound.</RBB.NoticeSilent>
+	<RBB.NoticeDing>Simple text notification with an alert "ding."</RBB.NoticeDing>
+	<RBB.NoticeBox>An event box which must be dismissed.</RBB.NoticeBox>
+	
+	<RBB.UnloadFrequency>Unload frequency.</RBB.UnloadFrequency>
+	<RBB.FishingDuration>Fishing duration.</RBB.FishingDuration>
+	<RBB.FishingFrequency>Fishing frequency.</RBB.FishingFrequency>
+	
+	<RBB.FishingBuildingEfficiencyTip>How efficient it is to catch fish here.</RBB.FishingBuildingEfficiencyTip>
+	
+	<RBB.TabUnloadTimer>Unload</RBB.TabUnloadTimer>
+	<RBB.TabFishingTimer>Fishing</RBB.TabFishingTimer>
+	
+	<RBB.CopyTip>Copy to the clipboard</RBB.CopyTip>
+	<RBB.PasteTip>Paste</RBB.PasteTip>
+	
+	<RBB.FailureLevel>Notification Type: Fishing Failures</RBB.FailureLevel>
+	<RBB.JunkLevel>Notification Type: "Junk" Catches</RBB.JunkLevel>
+	<RBB.SuccessLevel>Notification Type: Fishing Successes</RBB.SuccessLevel>
+	<RBB.TreasureLevel>Notification Type: Sunken Treasure</RBB.TreasureLevel>
+	
+	<RBB.MaxTreasureMass>Maximum treasure mass</RBB.MaxTreasureMass>
+	<RBB.MaxTreasureMassTip>Largest mass of treasure fishable</RBB.MaxTreasureMassTip>
+	
+	<RBB.MaxJunkMass>Maximum junk mass</RBB.MaxJunkMass>
+	<RBB.MaxJunkMassTip>Maximum junk mass that can be caught</RBB.MaxJunkMassTip>
+	
+	<RBB.TreasureChance>Treasure catch chance</RBB.TreasureChance>
+	<RBB.TreasureChanceTip>Chance to catch treasure when fishing</RBB.TreasureChanceTip>
+	
+	<RBB.TreasureMaxValue>Treasure max price</RBB.TreasureMaxValue>
+	<RBB.TreasureMaxValueTip>Maximum price of treasure thet can be fished</RBB.TreasureMaxValueTip>
+	
+	<RBB.JunkChance>Junk catch chance</RBB.JunkChance>
+	<RBB.JunkChanceTip>Chance to catch junk on not catching fish</RBB.JunkChanceTip>
+	
+	<RBB.RoeChance>Roe fish chance</RBB.RoeChance>
+	<RBB.RoeChanceTip>Chance to catch roe fish on spawning period</RBB.RoeChanceTip>
+	
+	
+	
 	<RBB.CaughtNothingTitle>Fishing Failure</RBB.CaughtNothingTitle>
 	<RBB.CaughtNothing> failed to catch anything while fishing.</RBB.CaughtNothing>
 	<RBB.SnaggedJunkTitle>Fishing "Success"</RBB.SnaggedJunkTitle>
@@ -23,6 +81,12 @@
 	<RBB.SunkenTreasureTitle>Sunken Treasure</RBB.SunkenTreasureTitle>
 	<RBB.SunkenTreasureText> found treasure while fishing: </RBB.SunkenTreasureText>
 	
+	<RBB.FSTooClose>Another fishing spot is too close (within 9 tiles)</RBB.FSTooClose>
+	<RBB.TrapTooClose>Another shellfish trap is too close (within 6 tiles)</RBB.TrapTooClose>
+	<RBB.TragedyText> was bitten by an oddly aggressive fish. (Or perhaps it was an eel. It all happened so fast!) Medical attention may be required!</RBB.TragedyText>
+	<RBB.TragedyPiranhaText> was attacked by a school of piranhas! Medical attention may be required!</RBB.TragedyPiranhaText>
+	<RBB.TragedyJellyfishText> was badly stung by a jellyfish! Medical attention may be required!</RBB.TragedyJellyfishText>
+
 	<RBB.Arapaima> caught an arapaima! It's huge!</RBB.Arapaima>
 	<RBB.Eel> caught an eel.</RBB.Eel>
 	<RBB.Fish> caught a fish.</RBB.Fish>
@@ -44,23 +108,6 @@
 	<RBB.TrapCrayfish>A shellfish trap caught some crayfish.</RBB.TrapCrayfish>
 	<RBB.TrapSnail>A shellfish trap caught some snails.</RBB.TrapSnail>
 	
-	<RBB.TrapDestroyed>A shellfish trap has been damaged beyond repair.</RBB.TrapDestroyed>
-	
-	<RBB.FishingEfficiency>Pawn Fishing Efficiency:</RBB.FishingEfficiency>
-	<RBB.FishingEfficiencyTip>Lower this setting if you feel your pawns are providing too many fish; increase it if you feel they're not providing enough.</RBB.FishingEfficiencyTip>
-
-	<RBB.TrapEfficiency>Shellfish Trap Efficiency:</RBB.TrapEfficiency>
-	<RBB.TrapEfficiencyTip>Lower this setting if you feel your traps are yielding too much; increase it if you feel they're not yielding enough.</RBB.TrapEfficiencyTip>
-	
-	<RBB.failureLevel>Notification Type: Fishing Failures</RBB.failureLevel>
-	<RBB.junkLevel>Notification Type: "Junk" Catches</RBB.junkLevel>
-	<RBB.successLevel>Notification Type: Fishing Successes</RBB.successLevel>
-	<RBB.treasureLevel>Notification Type: Sunken Treasure</RBB.treasureLevel>
-	
-	<RBB.NoticeNone>No notification.</RBB.NoticeNone>
-	<RBB.NoticeSilent>Simple text notification; no sound.</RBB.NoticeSilent>
-	<RBB.NoticeDing>Simple text notification with an alert "ding."</RBB.NoticeDing>
-	<RBB.NoticeBox>An event box which must be dismissed.</RBB.NoticeBox>
 	
 	<RBB.FishersHaul>Fishing Pawns Haul Their Own Catches to Storage.</RBB.FishersHaul>
 	<RBB.FishersHaulTip>If this is checked, fishing pawns will stop every time they catch something and haul it to a nearby storage area. This will make fishing less efficient, but will prevent other pawns from being interrupted from their own tasks to haul fish instead.</RBB.FishersHaulTip>

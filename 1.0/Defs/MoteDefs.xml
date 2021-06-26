@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="RBB_MoteBase" Abstract="True">
+		<thingClass>MoteThrown</thingClass>
+		<label>Mote</label>
+		<category>Mote</category>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<shaderType>Mote</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<isSaveable>false</isSaveable>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MoteBase">
+		<defName>Mote_FishingRodNorth</defName>
+		<description>Fishing rod.</description>
+		<mote>
+			<solidTime>1500</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>FishingRodNorth</texPath>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MoteBase">
+		<defName>Mote_FishingRodEast</defName>
+		<description>Fishing rod.</description>
+		<mote>
+			<solidTime>1500</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>FishingRodEast</texPath>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MoteBase">
+		<defName>Mote_FishingRodSouth</defName>
+		<description>Fishing rod.</description>
+		<mote>
+			<solidTime>1500</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>FishingRodSouth</texPath>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MoteBase">
+		<defName>Mote_FishingRodWest</defName>
+		<description>Fishing rod.</description>
+		<mote>
+			<solidTime>1500</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>FishingRodWest</texPath>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+	</ThingDef>
+
+</Defs>

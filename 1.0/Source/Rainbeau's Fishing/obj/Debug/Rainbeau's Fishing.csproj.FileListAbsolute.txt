@@ -1,0 +1,5 @@
+Z:\RFfishing\1.0\Assemblies\Rainbeau's Fishing.dll
+Z:\RFfishing\1.0\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csprojAssemblyReference.cache
+Z:\RFfishing\1.0\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CoreCompileInputs.cache
+Z:\RFfishing\1.0\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CopyComplete
+Z:\RFfishing\1.0\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.dll

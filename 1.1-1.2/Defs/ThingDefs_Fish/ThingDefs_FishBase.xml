@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- GENERIC FISH -->
+	<RBB.FishDef Name="RBB_FishCorpseBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<thingCategories>
+			<li>CorpsesFish</li>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<tickerType>Rare</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<fishProperties>
+			<RoeDef>FishRoe</RoeDef>
+			<BiteDamageDef>Bite</BiteDamageDef>
+			<BiteDamageRange>1.0~3.0</BiteDamageRange>
+			<SpawningYearRange>2~14</SpawningYearRange>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<!--spawning year range is 0-60 day over course of year-->
+	
+	<RBB.FishDef Name="RBB_CrabPotBase" ParentName="RBB_FishCorpseBase" Abstract="True">
+		<thingSetMakerTags>
+			<li>Fishing_CrabPotItem</li>
+		</thingSetMakerTags>
+	</RBB.FishDef>
+	
+	<RBB.FishDef Name="RBB_FishBase" ParentName="RBB_FishCorpseBase" Abstract="True">
+		<thingSetMakerTags>
+			<li>Fishing_FishItem</li>
+		</thingSetMakerTags>
+	</RBB.FishDef>	
+	
+</Defs>

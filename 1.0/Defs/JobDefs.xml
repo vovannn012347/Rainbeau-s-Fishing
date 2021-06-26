@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>JobDef_CatchFish</defName>
+		<driverClass>RBB_Code.JobDriver_CatchFish</driverClass> 
+		<reportString>Fishing.</reportString>
+		<alwaysShowWeapon>false</alwaysShowWeapon>
+	</JobDef>
+
+</Defs>

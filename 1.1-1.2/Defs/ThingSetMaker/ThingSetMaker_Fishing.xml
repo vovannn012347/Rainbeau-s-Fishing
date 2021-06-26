@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingSetMakerDef>
+    <defName>Fishing_ItemJunk</defName>
+    <debugParams> <!-- debug only! -->
+      <totalMarketValueRange>000~1000</totalMarketValueRange>
+    </debugParams>
+    <root Class="ThingSetMaker_RandomOption">
+		<options>
+		  <!-- Raw resources. Generally steel, gold, silver, wood, some textiles etc. -->
+		  <li>
+			<weight>0.5</weight>
+			<thingSetMaker Class="ThingSetMaker_MarketValue">
+			  <fixedParams>
+				<filter>
+				  <categories>
+					<li>ResourcesRaw</li>
+				  </categories>
+				  <disallowedCategories>
+					<li>StoneBlocks</li>
+				  </disallowedCategories>
+				</filter>
+			  </fixedParams>
+			</thingSetMaker>
+		  </li>
+		  <li>
+			<weight>1</weight>
+			<thingSetMaker Class="ThingSetMaker_MarketValue">
+			  <fixedParams>
+				<filter>
+				  <categories>
+					<li>Textiles</li>
+				  </categories>
+				</filter>
+			  </fixedParams>
+			</thingSetMaker>
+		  </li>
+		</options>
+    </root>
+  </ThingSetMakerDef> 
+</Defs>

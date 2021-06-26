@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- FOOD -->
+	
+	<ThingDef Name="RBB_MealBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-4</Beauty>
+			<Mass>0.44</Mass>
+			<DeteriorationRate>10</DeteriorationRate>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>10</stackLimit>
+		<tickerType>Rare</tickerType>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>FoodMeals</li>
+		</thingCategories>
+		<alwaysHaulable>true</alwaysHaulable>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Ingredients" />
+			<li Class="CompProperties_FoodPoisonable" />
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>4</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<pathCost>15</pathCost>
+		<resourceReadoutPriority>Last</resourceReadoutPriority>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<ingestible>
+			<foodType>Meal</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+		</ingestible>
+	</ThingDef>
+  
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>MealSushi</defName>
+		<label>sushi</label>
+		<description>A bowl of delicious sushi, made primarily from fish meat and rice.</description>
+		<graphicData>
+			<texPath>Sushi</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.90</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>28</MarketValue>
+			<WorkToMake>450</WorkToMake>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteSushi</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>MealBoiledShellfish</defName>
+		<label>boiled shellfish</label>
+		<description>A bowl of boiled shellfish.</description>
+		<graphicData>
+			<texPath>BoiledShellfish</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.90</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>28</MarketValue>
+			<WorkToMake>450</WorkToMake>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteShellfish</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>MealEscargot</defName>
+		<label>escargo</label>
+		<description>Escargot. In other words, cooked snails.</description>
+		<graphicData>
+			<texPath>Escargot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.90</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>28</MarketValue>
+			<WorkToMake>450</WorkToMake>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteEscargot</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>MealShrimpScampi</defName>
+		<label>shrimp scampi</label>
+		<description>A plate of shrimp scampi.</description>
+		<graphicData>
+			<texPath>ShrimpScampi</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.90</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>28</MarketValue>
+			<WorkToMake>450</WorkToMake>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteShrimpScampi</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+
+</Defs>

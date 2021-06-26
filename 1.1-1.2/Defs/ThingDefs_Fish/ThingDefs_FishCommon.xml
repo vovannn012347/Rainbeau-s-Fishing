@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_RawFishTiny">
+		<defName>RawFishTiny</defName>
+		<label>tiny fish</label>
+		<description>Raw fish. Very small. Best to be cleaned before it can be eaten.</description>
+		<graphicData>
+			<texPath>RawFishTiny</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.25</Nutrition>
+			<Mass>0.15</Mass>
+			<MarketValue>5</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawFishMeat>7</RawFishMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>1.3</Weight>
+			<HasRoe>true</HasRoe>
+			<RoeDef>RawFishTiny_RoeFish</RoeDef>
+			<CanBite>false</CanBite>
+		</fishProperties>
+		<thingSetMakerTags>
+			<li>Fishing_CrabPotItem</li>
+		</thingSetMakerTags>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_RawFishTiny">
+		<defName>RawFishTiny_RoeFish</defName>
+		<label>tiny roe fish</label>
+		<statBases>
+			<Nutrition>0.55</Nutrition>
+			<Mass>0.25</Mass>
+			<MarketValue>21</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<FishRoe>4</FishRoe>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_RawFish">
+		<defName>RawFish</defName>
+		<label>fish</label>
+		<description>Raw fish. Best to be cleaned before it can be eaten.</description>
+		<graphicData>
+			<texPath>RawFish</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<Mass>0.4</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawFishMeat>13</RawFishMeat>
+		</butcherProducts>	
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>0.5</Weight>
+			<HasRoe>true</HasRoe>
+			<RoeDef>RawFish_RoeFish</RoeDef>
+			<CanBite>true</CanBite>
+		</fishProperties>	
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_RawFish">
+		<defName>RawFish_RoeFish</defName>
+		<label>roe fish</label>
+		<statBases>
+			<Nutrition>1</Nutrition>
+			<Mass>0.8</Mass>
+			<MarketValue>42</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<FishRoe>8</FishRoe>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+		
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_Eel">
+		<defName>Eel</defName>
+		<label>eel</label>
+		<description>A raw eel. Best to be cleaned before it can be eaten.</description>
+		<graphicData>
+			<texPath>Eel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.4</Nutrition>
+			<Mass>0.3</Mass>
+			<MarketValue>15</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawEelMeat>9</RawEelMeat>
+			<EelLeather>5</EelLeather>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>0.2</Weight>
+			<MarshFactor>3</MarshFactor>
+			<SwampinessRange>
+				<min>0</min>
+				<fav>0.8</fav>
+				<max>2</max>
+			</SwampinessRange>	
+			<HasRoe>true</HasRoe>
+			<RoeDef>Eel_RoeFish</RoeDef>
+			<CanBite>true</CanBite>
+		</fishProperties>	
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_Eel">
+		<defName>Eel_RoeFish</defName>
+		<label>roe eel</label>
+		<statBases>
+			<Nutrition>1.0</Nutrition>
+			<Mass>0.7</Mass>
+			<MarketValue>45</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<FishRoe>8</FishRoe>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_Sturgeon">
+		<defName>Sturgeon</defName>
+		<label>sturgeon</label>
+		<description>Sturgeon are large freshwater fish native to subtropical, temperate and sub-Arctic regions. Though not an exceptional source of meat, some sturgeon can be harvested for their roe (eggs), which can be made into caviar.</description>
+		<graphicData>
+			<texPath>Sturgeon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>1</Nutrition>
+			<Mass>0.7</Mass>
+			<MarketValue>25</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawFishMeat>18</RawFishMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>10</Weight>
+			<TemperatureRange>
+				<min>-10</min>
+				<fav>10</fav>
+				<max>50</max>
+			</TemperatureRange>	
+			<HumidityRange>
+				<min>600</min>
+			</HumidityRange>		
+			<FreshWaterFactor>2</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+			<BiteDamageRange>2.0~5.0</BiteDamageRange>
+			<HasRoe>true</HasRoe>
+			<RoeDef>Sturgeon_RoeFish</RoeDef>
+			<CanBite>true</CanBite>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_Sturgeon">
+		<defName>Sturgeon_RoeFish</defName>
+		<label>roe sturgeon</label>
+		<statBases>
+			<Nutrition>2.35</Nutrition>
+			<Mass>1.55</Mass>
+			<MarketValue>250</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<Caviar>15</Caviar>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+	
+
+	<!-- COLD BIOME FISH -->
+
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_Salmon">
+		<defName>Salmon</defName>
+		<label>salmon</label>
+		<description>A salmon. Best to be cleaned before it can be eaten.</description>
+		<graphicData>
+			<texPath>Salmon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<Mass>0.3</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawFishMeat>14</RawFishMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>10</Weight>
+			<TemperatureRange>
+				<min>-40</min>
+				<fav>-10</fav>
+				<max>20</max>
+			</TemperatureRange>		
+			<FreshWaterFactor>3</FreshWaterFactor>	
+			<SaltWaterFactor>2.5</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+			<HasRoe>true</HasRoe>
+			<RoeDef>Salmon_RoeFish</RoeDef>
+			<CanBite>true</CanBite>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_Salmon">
+		<defName>Salmon_RoeFish</defName>
+		<label>roe salmon</label>
+		<statBases>
+			<Nutrition>1.025</Nutrition>
+			<Mass>0.65</Mass>
+			<MarketValue>38</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<FishRoe>7</FishRoe>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<!-- TEMPERATE FOREST FISH -->
+
+	<RBB.FishDef ParentName="RBB_FishBase" Name="RBB_Bass">
+		<defName>Bass</defName>
+		<label>bass</label>
+		<description>"Bass" is a name shared by many species of fish, including both freshwater and marine species. Best to be cleaned before it can be eaten.</description>
+		<graphicData>
+			<texPath>Bass</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<Mass>0.3</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawFishMeat>12</RawFishMeat>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>Static</WeightType>
+			<Weight>10</Weight>
+			<TemperatureRange>
+				<min>-40</min>
+				<fav>15</fav>
+				<max>70</max>
+			</TemperatureRange>		
+			<FreshWaterFactor>3</FreshWaterFactor>	
+			<SaltWaterFactor>3</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+			<HasRoe>true</HasRoe>
+			<RoeDef>Bass_RoeFish</RoeDef>
+			<CanBite>true</CanBite>
+		</fishProperties>
+	</RBB.FishDef>
+	
+	<RBB.FishDef ParentName="RBB_Bass">
+		<defName>Bass_RoeFish</defName>
+		<label>roe bass</label>
+		<statBases>
+			<Nutrition>1.025</Nutrition>
+			<Mass>0.65</Mass>
+			<MarketValue>38</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<FishRoe>7</FishRoe>
+		</butcherProducts>
+		<fishProperties>
+			<WeightType>None</WeightType>
+		</fishProperties>
+	</RBB.FishDef>
+
+</Defs>

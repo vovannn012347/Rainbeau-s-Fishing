@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EffecterDef>
+    <defName>Fishing_Effecter</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_FishingRod</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+  
+</Defs>

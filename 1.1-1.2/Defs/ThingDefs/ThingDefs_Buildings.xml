@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef>
+		<defName>RBB_FishingSpot</defName>
+		<label>fishing spot</label>
+		<description>A spot from which pawns can relax and catch fish.</description>
+		<category>Building</category>
+		<thingClass>RBB.Building_FishingSpot</thingClass>
+		<graphicData>
+			<texPath>WGSpot</texPath>
+			<shaderType>MetaOverlay</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Standable</passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+		  <li>ITab_Bills</li>
+		  <li>RBB.ITab_Fishing_Timer_Tab</li>
+		</inspectorTabs>
+		<recipes>
+		  <li>RBB_FishingList</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets></statOffsets>
+				<maxDistance>8</maxDistance>
+				<maxSimultaneous>100</maxSimultaneous>
+				<mustBePlacedAdjacent>false</mustBePlacedAdjacent>
+			</li>
+			<li Class="RBB.CompProperties_FishingStatAffector">       
+				<linkableFacilities>
+				  <li>RBB_FishingSpot</li>
+				  <li>RBB_ShellfishTrap</li>
+				</linkableFacilities>
+				<defs>
+				  <RBB_FishingSpot>1</RBB_FishingSpot>
+				  <RBB_ShellfishTrap>0.2</RBB_ShellfishTrap>
+				</defs>
+				<curve>
+				  <points>
+					<li>(1,  1.0)</li>
+					<li>(2,  0.7)</li>
+					<li>(11, 0.55)</li>
+					<li>(26, 0.4)</li>
+					<li>(51, 0.25)</li>
+				  </points>
+				</curve>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<terrainAffordanceNeeded>Fishable</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>RBB_ShellfishTrap</defName>
+		<label>shellfish trap</label>
+		<description>A trap designed to catch shellfish (lobsters, crabs, crayfish and the like). It'll also sometimes catch snails, shrimp and small fish.</description>
+		<category>Building</category>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingClass>RBB.Building_ShellfishTrap</thingClass>
+		<graphicData>
+			<texPath>ShellfishTrap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<size>(1,1)</size>
+		<tickerType>Rare</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<inspectorTabs>
+		  <li>RBB.ITab_Unload_Settings_Tab</li>
+		</inspectorTabs>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Mass>5</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>true</useHitPoints>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<surfaceType>Item</surfaceType>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<terrainAffordanceNeeded>Fishable</terrainAffordanceNeeded>
+		<blockLight>false</blockLight>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets></statOffsets>
+				<maxDistance>21</maxDistance>
+				<maxSimultaneous>100</maxSimultaneous>
+				<mustBePlacedAdjacent>false</mustBePlacedAdjacent>
+			</li>
+			<li Class="RBB.CompProperties_FishingStatAffector">
+				<linkableFacilities>
+				  <li>RBB_ShellfishTrap</li>
+				</linkableFacilities>
+				<defs>
+				  <RBB_ShellfishTrap>1</RBB_ShellfishTrap>
+				</defs>
+				<curve>
+				  <points>
+					<li>(1,  1.0)</li>
+					<li>(2,  0.7)</li>
+					<li>(11, 0.55)</li>
+					<li>(26, 0.4)</li>
+					<li>(51, 0.25)</li>
+				  </points>
+				</curve>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

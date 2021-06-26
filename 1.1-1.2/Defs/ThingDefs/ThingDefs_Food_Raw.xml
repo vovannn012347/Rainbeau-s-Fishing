@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="RBB_ResourceBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<Beauty>-4</Beauty>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+	
+	<!-- meat stuff -->
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawFishMeat</defName>
+		<label>fish meat</label>
+		<description>Raw fish. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawFishMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteSushi</specialThoughtAsIngredient>  
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawSquidMeat</defName>
+		<label>squid meat</label>
+		<description>Raw squid. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawSquidMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteSushi</specialThoughtAsIngredient>  
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawEelMeat</defName>
+		<label>eel meat</label>
+		<description>Raw eel. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawFishMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteSushi</specialThoughtAsIngredient>  
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>JellyfishMeat</defName>
+		<label>jellyfish meat</label>
+		<description>Raw jellyfish. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawShellfishMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>PufferfishMeat</defName>
+		<label>pufferfish meat</label>
+		<description>Raw pufferfish. Could be eaten "as is," but that's not recommended, as it can be toxic without proper preparation.</description>
+		<graphicData>
+			<texPath>RawFishMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>NeverForNutrition</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteSushi</specialThoughtAsIngredient>  
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+			<FoodPoisonChanceFixedHuman>0.67</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>SeaCucumberMeat</defName>
+		<label>sea cucumber meat</label>
+		<description>Raw sea cucumber. Could be eaten, but would probably be better utilized to produce medicine.</description>
+		<graphicData>
+			<texPath>RawSnailMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawShellfishMeat</defName>
+		<label>shellfish meat</label>
+		<description>Raw shellfish. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawShellfishMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteShellfish</specialThoughtAsIngredient>  
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawSnailMeat</defName>
+		<label>snail meat</label>
+		<description>Raw snail. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawSnailMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteEscargot</specialThoughtAsIngredient> 
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>RawShrimpMeat</defName>
+		<label>shrimp meat</label>
+		<description>Raw shrimp. Could be eaten "as is," but would probably be better cooked.</description>
+		<graphicData>
+			<texPath>RawShrimpMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<specialThoughtAsIngredient>AteShrimpScampi</specialThoughtAsIngredient> 
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>10</DeteriorationRate>
+			<Mass>0.03</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_FoodPoisonable" />
+		</comps>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	
+	<!-- roe stuff -->
+	
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>FishRoe</defName>
+		<label>Roe</label>
+		<description>A tasty product of fish butchering.</description>
+		<graphicData>
+			<texPath>FishRoe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.075</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>4</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<preferability>RawTasty</preferability>
+			<tasteThought>AteRoe</tasteThought>
+			<specialThoughtAsIngredient>AteRoe</specialThoughtAsIngredient> 
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>Caviar</defName>
+		<label>caviar</label>
+		<description>A delicacy consisting of salt-cured sturgeon eggs.</description>
+		<graphicData>
+			<texPath>Caviar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.09</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<preferability>RawTasty</preferability>
+			<tasteThought>AteCaviar</tasteThought>
+			<specialThoughtAsIngredient>AteCaviar</specialThoughtAsIngredient> 
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- leather -->
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>SquidLeather</defName>
+		<label>squid leather</label>
+		<description>Leather, of sorts, made from the hide of a squid.</description>
+		<graphicData>
+			<texPath>SquidLeather</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.03</Mass>
+			<MarketValue>3</MarketValue>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+		</statBases>
+		<thingCategories>
+			<li>Leathers</li>
+		</thingCategories>
+		<stuffProps>
+			<commonality>0.25</commonality>
+			<categories>
+				<li>Leathery</li>
+			</categories>
+			<color>(160,80,80)</color>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="RBB_ResourceBase">
+		<defName>EelLeather</defName>
+		<label>eel skin</label>
+		<description>Leather, of sorts, made from the skin of an eel.</description>
+		<graphicData>
+			<texPath>EelSkin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.03</Mass>
+			<MarketValue>3</MarketValue>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>13</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>13</StuffPower_Insulation_Heat>
+		</statBases>
+		<thingCategories>
+			<li>Leathers</li>
+		</thingCategories>
+		<stuffProps>
+			<commonality>0.25</commonality>
+			<categories>
+				<li>Leathery</li>
+			</categories>
+			<color>(50,100,150)</color>
+		</stuffProps>
+	</ThingDef>
+</Defs>

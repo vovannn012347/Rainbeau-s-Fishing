@@ -1,0 +1,8 @@
+Z:\RFfishing\Assemblies\Rainbeau's Fishing.dll
+Z:\RFfishing\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csprojAssemblyReference.cache
+Z:\RFfishing\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CoreCompileInputs.cache
+Z:\RFfishing\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.dll
+Z:\RFfishing\1.2\Assemblies\Rainbeau's Fishing.dll
+Z:\RFfishing\1.2\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csprojAssemblyReference.cache
+Z:\RFfishing\1.2\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.csproj.CoreCompileInputs.cache
+Z:\RFfishing\1.2\Source\Rainbeau's Fishing\obj\Debug\Rainbeau's Fishing.dll

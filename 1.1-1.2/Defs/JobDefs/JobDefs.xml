@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>JobDef_CatchFish</defName>
+		<driverClass>RBB.JobDriver_CatchFish</driverClass> 
+		<reportString>Fishing.</reportString>
+		<joySkill>Animals</joySkill>
+		<joyXpPerTick>0.009</joyXpPerTick>
+		<alwaysShowWeapon>false</alwaysShowWeapon>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<JobDef>
+		<defName>JobDef_EmptyCrabPot</defName>
+		<driverClass>RBB.JobDriver_UnloadCrabPot</driverClass> 
+		<reportString>Unloading crab pot.</reportString>
+		<alwaysShowWeapon>false</alwaysShowWeapon>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+</Defs>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- SHELLFISH -->
+	
+	<RBB.FishDef ParentName="RBB_CrabPotBase">
+		<defName>Lobster</defName>
+		<label>lobster</label>
+		<description>A lobster. Kind of looks like a giant cockroach. Could be eaten raw, but would be much better cooked.</description>
+		<graphicData>
+			<texPath>Lobster</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.6</Nutrition>
+			<Mass>0.95</Mass>
+			<MarketValue>15</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawShellfishMeat>15</RawShellfishMeat>
+		</butcherProducts>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>0.4</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>	
+
+	<RBB.FishDef ParentName="RBB_CrabPotBase">
+		<defName>Shrimp</defName>
+		<label>shrimp</label>
+		<description>A shrimp. Could be eaten raw, but would be better cooked.</description>
+		<graphicData>
+			<texPath>Shrimp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.25</Nutrition>
+			<Mass>0.1</Mass>
+			<MarketValue>5</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawShrimpMeat>5</RawShrimpMeat>
+		</butcherProducts>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>1.0</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>	
+
+	<RBB.FishDef ParentName="RBB_CrabPotBase">
+		<defName>Crab</defName>
+		<label>crab</label>
+		<description>A crab. Could be eaten raw, but would be much better cooked.</description>
+		<graphicData>
+			<texPath>Crab</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.1</Nutrition>
+			<Mass>0.1</Mass>
+			<MarketValue>10</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawShellfishMeat>10</RawShellfishMeat>
+		</butcherProducts>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>1.4</Weight>
+			<FreshWaterFactor>0</FreshWaterFactor>	
+			<SaltWaterFactor>1</SaltWaterFactor>	
+			<MarshFactor>0</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>	
+	
+	<RBB.FishDef ParentName="RBB_CrabPotBase">
+		<defName>Crayfish</defName>
+		<label>crayfish</label>
+		<description>A crayfish. Could be eaten raw, but would be much better cooked.</description>
+		<graphicData>
+			<texPath>Crayfish</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.25</Nutrition>
+			<Mass>0.2</Mass>
+			<MarketValue>5</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawShellfishMeat>8</RawShellfishMeat>
+		</butcherProducts>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>2.6</Weight>
+			<FreshWaterFactor>1</FreshWaterFactor>	
+			<SaltWaterFactor>0</SaltWaterFactor>	
+			<MarshFactor>1</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>	
+
+	<RBB.FishDef ParentName="RBB_CrabPotBase">
+		<defName>Snail</defName>
+		<label>snail</label>
+		<description>A snail. Could be eaten raw, but would be better cooked. But only a little better. After all, it would still be a snail.</description>
+		<graphicData>
+			<texPath>Snail</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.1</Nutrition>
+			<Mass>0.07</Mass>
+			<MarketValue>3</MarketValue>
+		</statBases>
+		<butcherProducts>
+			<RawSnailMeat>4</RawSnailMeat>
+		</butcherProducts>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fishProperties>
+			<WeightType>StaticFactor</WeightType>
+			<Weight>1.3</Weight>
+			<FreshWaterFactor>1</FreshWaterFactor>	
+			<SaltWaterFactor>0</SaltWaterFactor>	
+			<MarshFactor>1</MarshFactor>
+		</fishProperties>
+	</RBB.FishDef>	
+
+</Defs>
